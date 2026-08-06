@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pricing — the escalating course ladder | RankLab Academy v2</title>
+<meta name="description" content="Course 0 and Course 1 are free. Every course after that costs more than the one before it, because each one governs a larger and less reversible decision. Full ladder, bundle price and the honest limits of this demo.">
+<link rel="canonical" href="pricing.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pricing — the escalating course ladder">
+<meta property="og:description" content="Start free. Pay more only as the decisions get more expensive to get wrong.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/head.js"></script>
+<script src="js/ads-config.js" defer></script>
+<script src="js/megamenu.js" defer></script>
+<script src="js/db.js" defer></script>
+<script src="js/app.js" defer></script>
+<script src="js/pricing.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "BreadcrumbList", "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ranklab-academy.pages.dev/" },
+      { "@type": "ListItem", "position": 2, "name": "Pricing" } ] },
+    { "@type": "FAQPage", "mainEntity": [
+      { "@type": "Question", "name": "Why does each course cost more than the last?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Because each course governs a larger and less reversible decision. Course 2 changes which niche you pick; Course 11 changes how you take money and what you are liable for. Price tracks the cost of getting it wrong." } },
+      { "@type": "Question", "name": "Is the checkout real?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. This is a front-end-only static demonstration. Unlock state is written to IndexedDB in your own browser and is not a security boundary. No payment is taken and no data leaves your device." } }
+    ] }
+  ]
+}
+</script>
+</head>
+<body data-page="pricing">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">RL</span> RankLab <span class="muted">Academy</span></a>
+    <nav id="main-nav" class="main-nav" aria-label="Main">
+
+      <div class="nav-item">
+        <button class="nav-link mega-btn" type="button" aria-expanded="false" aria-controls="mega-curriculum">Curriculum <span class="chev" aria-hidden="true">▾</span></button>
+        <div class="mega-panel" id="mega-curriculum">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h3>Foundations</h3>
+              <ul>
+                <li><a class="mega-link" href="courses/00-decision-economics.html"><span class="mega-num">0</span>Decision Economics <small>Free · cost model, kill criteria</small></a></li>
+                <li><a class="mega-link" href="courses/01-search-foundations-ai-era.html"><span class="mega-num">1</span>Search in the AI Era <small>Free · zero-click survival</small></a></li>
+                <li><a class="mega-link" href="courses/02-niche-displacement-scoring.html"><span class="mega-num">2</span>Niche Selection <small>$19 · displacement scoring</small></a></li>
+                <li><a class="mega-link" href="courses/03-owned-audience-newsletter.html"><span class="mega-num">3</span>Owned Audience <small>$29 · newsletter as product</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Build &amp; optimise</h3>
+              <ul>
+                <li><a class="mega-link" href="courses/04-architecture-cloudflare-legal.html"><span class="mega-num">4</span>Architecture &amp; Legal <small>$39 · Cloudflare, launch gate</small></a></li>
+                <li><a class="mega-link" href="courses/05-technical-seo-performance-ops.html"><span class="mega-num">5</span>Technical SEO &amp; Ops <small>$49 · Core Web Vitals, schema</small></a></li>
+                <li><a class="mega-link" href="courses/06-answer-engine-visibility.html"><span class="mega-num">6</span>Answer-Engine Visibility <small>$59 · citations, brand demand</small></a></li>
+                <li><a class="mega-link" href="courses/07-content-eeat-editorial-economics.html"><span class="mega-num">7</span>Content &amp; E-E-A-T <small>$69 · cost per asset</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Grow &amp; monetise</h3>
+              <ul>
+                <li><a class="mega-link" href="courses/08-onpage-cro-tool-ux.html"><span class="mega-num">8</span>On-Page &amp; Tool UX <small>$79 · money pages, CRO</small></a></li>
+                <li><a class="mega-link" href="courses/09-apis-analytics-ai-surface.html"><span class="mega-num">9</span>APIs &amp; Analytics <small>$99 · AI-surface measurement</small></a></li>
+                <li><a class="mega-link" href="courses/10-links-partnerships-digital-pr.html"><span class="mega-num">10</span>Links &amp; Digital PR <small>$119 · original data campaigns</small></a></li>
+                <li><a class="mega-link" href="courses/11-monetization-compliance-resilience.html"><span class="mega-num">11</span>Monetization <small>$149 · concentration limits</small></a></li>
+                <li><a class="mega-link" href="courses/12-capstone-3-site-portfolio.html"><span class="mega-num">12</span>Capstone Portfolio <small>$199 · pruning gates</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col mega-feature">
+              <h3>Start here</h3>
+              <p>13 courses · 78 lessons · 78 artifacts. Every course uses one spine: 6 lessons, a lab each, a scenario assessment, a final project, a checklist and an AI-agent prompt.</p>
+              <a class="btn btn-sm" href="courses/index.html">View full curriculum</a>
+            </div>
+          </div>
+          <div class="mega-foot"><div class="mega-foot-inner">
+            <span>Rule 4 — launch 3 sites first; expand to 10 only after the gates pass.</span>
+            <a href="blueprint/index.html">See the 12-asset MVP →</a>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-link mega-btn" type="button" aria-expanded="false" aria-controls="mega-toolkit">Toolkit <span class="chev" aria-hidden="true">▾</span></button>
+        <div class="mega-panel" id="mega-toolkit">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h3>Decide</h3>
+              <ul>
+                <li><a class="mega-link" href="tools/unit-economics.html">Unit economics &amp; payback <small>12-month cost model</small></a></li>
+                <li><a class="mega-link" href="tools/niche-scorer.html">Niche scorer <small>Displacement-adjusted</small></a></li>
+                <li><a class="mega-link" href="tools/zero-click-scorecard.html">Zero-click survival scorecard</a></li>
+                <li><a class="mega-link" href="tools/pruning-scorecard.html">Portfolio pruning scorecard</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Govern</h3>
+              <ul>
+                <li><a class="mega-link" href="tools/claim-register.html">Claim verification register <small>90-day expiry</small></a></li>
+                <li><a class="mega-link" href="tools/risk-register.html">Risk register <small>10 categories</small></a></li>
+                <li><a class="mega-link" href="tools/reviewer-register.html">Reviewer register</a></li>
+                <li><a class="mega-link" href="tools/legal-question-sheet.html">Legal counsel question sheet</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Measure &amp; build</h3>
+              <ul>
+                <li><a class="mega-link" href="tools/revenue-rpm-calculator.html">Revenue &amp; RPM calculator</a></li>
+                <li><a class="mega-link" href="tools/ai-surface-tracker.html">AI-surface tracking sheet</a></li>
+                <li><a class="mega-link" href="tools/content-brief-builder.html">Content brief builder</a></li>
+                <li><a class="mega-link" href="tools/checklists.html">Launch checklists</a></li>
+              </ul>
+            </div>
+            <div class="mega-col mega-feature">
+              <h3>Everything stays local</h3>
+              <p>Tools save to IndexedDB in your own browser. Nothing is uploaded. Export a JSON backup any time from your dashboard.</p>
+              <a class="btn btn-sm btn-outline" href="tools/index.html">All tools</a>
+            </div>
+          </div>
+          <div class="mega-foot"><div class="mega-foot-inner">
+            <span>Rule 1 — every platform or commercial claim expires after 90 days.</span>
+            <a href="resources/visual-assets.html">Image prompts &amp; screenshot SOPs →</a>
+          </div></div>
+        </div>
+      </div>
+
+      <a class="nav-link" href="blueprint/index.html">Blueprint</a>
+      <a class="nav-link" href="pricing.html" aria-current="page">Pricing</a>
+      <a class="nav-link" href="dashboard.html">My progress</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch theme">☾</button>
+      <button id="nav-toggle" class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<div class="page-head">
+  <div class="wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol><li><a href="index.html">Home</a></li><li>Pricing</li></ol>
+    </nav>
+    <p class="mb-1"><span class="badge badge-accent">Two courses free</span> <span class="badge">Escalating ladder</span></p>
+    <h1>Pricing: start free, pay more only as the decisions get more expensive</h1>
+    <p class="lead">Course 0 and Course 1 cost nothing, forever. From Course 2 onward every course costs more than the one before it. That is not a trick — it tracks the size of the mistake each course is designed to prevent.</p>
+    <div class="btn-row">
+      <a class="btn" href="courses/00-decision-economics.html">Start free with Course 0</a>
+      <a class="btn btn-outline" href="courses/index.html">See the curriculum</a>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <aside class="ad-slot ad-leaderboard" data-ad="header" data-ad-format="horizontal" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+</div>
+
+<div class="wrap section">
+  <div class="callout callout-warn">
+    <strong class="callout-title">Read this before anything else: the checkout is not real</strong>
+    <p>This is a static, front-end-only demonstration site. There is no server, no payment provider and no account. When you press an unlock button, a flag is written to <strong>IndexedDB in your own browser</strong> and nothing is charged or transmitted. Anyone can read every lesson in the page source.</p>
+    <p class="mb-0">A production version of this ladder <strong>must</strong> put a real payment provider and server-side entitlement checks in front of paid lessons. Client-side gating is a user-experience pattern, never a security boundary. This page says so plainly because the academy's own editorial policy forbids implying a capability the build does not have.</p>
+  </div>
+</div>
+
+<!-- ============================ THE LADDER ============================ -->
+<section class="wrap section" id="ladder" aria-labelledby="ladder-h">
+  <h2 id="ladder-h">The full ladder</h2>
+  <p class="muted">Thirteen courses. Two free, eleven paid, each priced above the last. Buy them one at a time as you reach them, or take the bundle.</p>
+  <div class="mt-2" data-ladder-status></div>
+
+  <div class="price-grid">
+    <article class="price-card is-free">
+      <p class="tier-badge muted">Course 0 · Foundation</p>
+      <p class="price-amount">Free<small>No account, no email</small></p>
+      <h3 class="text-sm">Decision Economics, Risk &amp; Kill Criteria</h3>
+      <ul>
+        <li>12-month cost model</li>
+        <li>Unit economics &amp; payback</li>
+        <li>Kill / freeze / pivot criteria</li>
+        <li>All 6 lessons unlocked</li>
+      </ul>
+      <a class="btn" href="courses/00-decision-economics.html">Open Course 0</a>
+    </article>
+
+    <article class="price-card is-free">
+      <p class="tier-badge muted">Course 1 · Foundation</p>
+      <p class="price-amount">Free<small>No account, no email</small></p>
+      <h3 class="text-sm">Search Foundations in the AI/Zero-Click Era</h3>
+      <ul>
+        <li>How zero-click actually works</li>
+        <li>Query classes that survive</li>
+        <li>Zero-click survival scorecard</li>
+        <li>All 6 lessons unlocked</li>
+      </ul>
+      <a class="btn" href="courses/01-search-foundations-ai-era.html">Open Course 1</a>
+    </article>
+
+    <article class="price-card is-featured">
+      <p class="tier-badge muted">Bundle</p>
+      <p class="price-amount">$399<small>All 13 courses · save $509</small></p>
+      <h3 class="text-sm">Full academy bundle</h3>
+      <ul>
+        <li>78 lessons, 78 artifacts</li>
+        <li>All 12 tools &amp; 7 v2 templates</li>
+        <li>Capstone 3-site portfolio review</li>
+        <li>Every future v2.x update</li>
+      </ul>
+      <a class="btn" href="courses/index.html">See what is included</a>
+    </article>
+  </div>
+
+  <h3 class="mt-3">Course-by-course prices</h3>
+  <div class="table-wrap">
+    <table>
+      <caption class="text-sm muted">Ladder total if bought individually: <strong>$908</strong>. Bundle: <strong>$399</strong> (saving $509).</caption>
+      <thead>
+        <tr><th scope="col">#</th><th scope="col">Course</th><th scope="col">What it decides</th><th scope="col">Price</th><th scope="col">Step</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>0</td><td><a href="courses/00-decision-economics.html">Decision Economics, Risk &amp; Kill Criteria</a></td><td>Whether the site should exist at all</td><td><strong>Free</strong></td><td>—</td></tr>
+        <tr><td>1</td><td><a href="courses/01-search-foundations-ai-era.html">Search Foundations in the AI/Zero-Click Era</a></td><td>Which demand is still worth chasing</td><td><strong>Free</strong></td><td>—</td></tr>
+        <tr><td>2</td><td><a href="courses/02-niche-displacement-scoring.html">Niche Research &amp; Displacement-Adjusted Selection</a></td><td>Which three markets you launch</td><td><strong>$19</strong></td><td>+$19</td></tr>
+        <tr><td>3</td><td><a href="courses/03-owned-audience-newsletter.html">Owned Audience &amp; the Newsletter as Product</a></td><td>Whether you own the relationship</td><td><strong>$29</strong></td><td>+$10</td></tr>
+        <tr><td>4</td><td><a href="courses/04-architecture-cloudflare-legal.html">Architecture, Cloudflare &amp; the Legal Launch Gate</a></td><td>What you publish before counsel review</td><td><strong>$39</strong></td><td>+$10</td></tr>
+        <tr><td>5</td><td><a href="courses/05-technical-seo-performance-ops.html">Technical SEO, Performance &amp; Ops</a></td><td>Whether the asset is machine-legible</td><td><strong>$49</strong></td><td>+$10</td></tr>
+        <tr><td>6</td><td><a href="courses/06-answer-engine-visibility.html">Answer-Engine Visibility &amp; Brand Demand</a></td><td>Whether you get cited when not clicked</td><td><strong>$59</strong></td><td>+$10</td></tr>
+        <tr><td>7</td><td><a href="courses/07-content-eeat-editorial-economics.html">Content, E-E-A-T &amp; Editorial Economics</a></td><td>Cost per asset and who signs it off</td><td><strong>$69</strong></td><td>+$10</td></tr>
+        <tr><td>8</td><td><a href="courses/08-onpage-cro-tool-ux.html">On-Page, CRO &amp; Tool UX</a></td><td>Whether attention converts</td><td><strong>$79</strong></td><td>+$10</td></tr>
+        <tr><td>9</td><td><a href="courses/09-apis-analytics-ai-surface.html">APIs, Analytics &amp; AI-Surface Measurement</a></td><td>What you can actually prove</td><td><strong>$99</strong></td><td>+$20</td></tr>
+        <tr><td>10</td><td><a href="courses/10-links-partnerships-digital-pr.html">Links, Partnerships &amp; Digital PR</a></td><td>Whether anyone vouches for you</td><td><strong>$119</strong></td><td>+$20</td></tr>
+        <tr><td>11</td><td><a href="courses/11-monetization-compliance-resilience.html">Monetization, Compliance &amp; Resilience</a></td><td>How you take money and what you are liable for</td><td><strong>$149</strong></td><td>+$30</td></tr>
+        <tr><td>12</td><td><a href="courses/12-capstone-3-site-portfolio.html">Capstone: the 3-Site Portfolio</a></td><td>What you keep, prune or kill</td><td><strong>$199</strong></td><td>+$50</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="wrap">
+  <aside class="ad-slot ad-inarticle" data-ad="inline" data-ad-format="rectangle" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+</div>
+
+<!-- ============================ WHY ESCALATING ============================ -->
+<section class="wrap section" id="why" aria-labelledby="why-h">
+  <h2 id="why-h">Why the price escalates</h2>
+  <div class="grid grid-3">
+    <article class="card">
+      <h3 class="mt-0 text-sm">1. Price tracks the cost of the mistake</h3>
+      <p class="mb-0 text-sm">Getting Course 2 wrong costs you a few weeks in a bad niche. Getting Course 11 wrong can mean an FTC disclosure problem, a clawed-back affiliate account or a single sponsor who is 60% of revenue walking away. The later courses are cheap relative to what they prevent.</p>
+    </article>
+    <article class="card">
+      <h3 class="mt-0 text-sm">2. It enforces the order</h3>
+      <p class="mb-0 text-sm">A flat price invites people to jump to the monetisation course on day one and build a business on a niche that a generated answer will erase. The ladder makes the cheapest path the correct path: decide, then validate, then build, then monetise.</p>
+    </article>
+    <article class="card">
+      <h3 class="mt-0 text-sm">3. The free tier is genuinely enough to say no</h3>
+      <p class="mb-0 text-sm">Courses 0 and 1 exist so you can reach a defensible <em>no</em> without paying. If the 12-month cost model and the zero-click survival scorecard tell you the project fails, you have saved money and you owe us nothing. That is the honest outcome for a large share of readers.</p>
+    </article>
+  </div>
+
+  <div class="callout callout-tip mt-3">
+    <strong class="callout-title">Governing question</strong>
+    <p class="mb-0">If Google disappeared tomorrow, why would anyone still come back to this brand? Every paid course on this ladder has to move that answer forward. If a course cannot, it should not be in the ladder — and the Month 3, 6 and 9 pruning gates apply to our own curriculum too.</p>
+  </div>
+</section>
+
+<!-- ============================ WHAT IS IN EVERY COURSE ============================ -->
+<section class="wrap section" id="spine" aria-labelledby="spine-h">
+  <h2 id="spine-h">What every paid course contains</h2>
+  <p class="muted">There is one fixed spine, so the price differences are about subject leverage, not about size.</p>
+  <ul class="pill-row">
+    <li>6 lessons</li><li>1 lab per lesson</li><li>1 artifact per lesson</li><li>1 scenario assessment</li><li>1 final project</li><li>1 checklist</li><li>1 AI-agent prompt</li>
+  </ul>
+  <div class="grid grid-2 mt-2">
+    <article class="card">
+      <h3 class="mt-0 text-sm">Free preview on every paid course</h3>
+      <p class="text-sm">Lesson 1 of every paid course is readable in full before you unlock anything, including its lab and its artifact spec. You can see the format, the depth and the tone before deciding.</p>
+      <p class="mb-0 text-sm">Locked lessons are never removed from the page. They stay in the document and in the accessibility tree, faded behind a visible unlock panel — no hidden focusable controls, and nothing disappears for crawlers or screen readers.</p>
+    </article>
+    <article class="card">
+      <h3 class="mt-0 text-sm">Your data stays yours</h3>
+      <p class="text-sm">Progress, notes, artifacts and unlock state are written to IndexedDB on your own device. There is no account and no analytics account attached to your learning record.</p>
+      <p class="mb-0 text-sm">Clearing site data clears your progress, so export a JSON backup from <a href="dashboard.html">My progress</a> before you do.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============================ FAQ ============================ -->
+<section class="wrap section" id="faq" aria-labelledby="faq-h">
+  <h2 id="faq-h">Pricing questions</h2>
+  <details class="faq"><summary>Do I have to buy the courses in order?</summary>
+    <p>No, but the ladder is designed so that buying out of order is both more expensive and less useful. Course 11 assumes you already have the niche score from Course 2 and the cost model from Course 0.</p></details>
+  <details class="faq"><summary>What happens to my unlock if I clear my browser data?</summary>
+    <p>In this demonstration build, it is gone — entitlements live in IndexedDB with everything else. Export a backup from the dashboard first. In a production build this would be tied to a server-side account instead.</p></details>
+  <details class="faq"><summary>Is there a refund policy?</summary>
+    <p>There is no checkout, so there is nothing to refund. If this were a live product, the policy that matches the ladder would be a full refund within 14 days on any single course, with the free tier serving as the trial.</p></details>
+  <details class="faq"><summary>Why is Course 12 the most expensive when it has the same six lessons?</summary>
+    <p>Because it decides what you shut down. The capstone runs the Month 3, 6 and 9 pruning gates across three live sites and forces a keep/prune/kill call on each. Capital-allocation decisions are where the money in this whole curriculum actually is.</p></details>
+  <details class="faq"><summary>Are the prices claims that expire?</summary>
+    <p>Prices are our own commercial terms, not third-party claims, so Rule 1's 90-day claim expiry does not apply to them. Every <em>external</em> platform, CPM or compliance statement in the courses does carry a 90-day expiry and an owner in the claim register.</p></details>
+</section>
+
+<div class="wrap">
+  <aside class="ad-slot ad-footer" data-ad="footer" data-ad-format="horizontal" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><span class="brand-mark">RL</span> RankLab Academy</a>
+        <p class="text-sm muted mt-2">Durable owned-audience assets for the AI/zero-click era. Educational content — not financial, legal, medical or insurance advice.</p>
+      </div>
+      <div><h3>Learn</h3><ul>
+        <li><a href="courses/index.html">All courses</a></li><li><a href="tools/index.html">Tools</a></li><li><a href="prompts/index.html">Prompts</a></li><li><a href="blueprint/index.html">Blueprint</a></li><li><a href="dashboard.html">My progress</a></li>
+      </ul></div>
+      <div><h3>Trust</h3><ul>
+        <li><a href="about.html">About &amp; ownership</a></li><li><a href="authors.html">Authors</a></li><li><a href="editorial-policy.html">Editorial policy</a></li><li><a href="review-methodology.html">Review methodology</a></li><li><a href="corrections.html">Corrections</a></li>
+      </ul></div>
+      <div><h3>Legal</h3><ul>
+        <li><a href="advertiser-disclosure.html">Advertiser disclosure</a></li><li><a href="privacy-policy.html">Privacy policy</a></li><li><a href="terms.html">Terms</a></li><li><a href="contact.html">Contact</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> RankLab Academy · v2.0 curriculum</span>
+      <span>Progress stored locally with IndexedDB.</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

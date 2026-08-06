@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Course 0: Decision Economics, Risk, and Kill Criteria | RankLab Academy v2</title>
+<meta name="description" content="Before SEO, decide whether the site should exist. Build a 12-month cost model, unit economics, a falsifiable thesis, kill/freeze/pivot criteria, build-vs-buy due diligence and a governance dashboard.">
+<link rel="canonical" href="00-decision-economics.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Course 0 — Decision Economics, Risk, and Kill Criteria">
+<meta property="og:description" content="Six lessons and six artifacts that decide whether a website is worth building at all.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/head.js"></script>
+<script src="../js/ads-config.js" defer></script>
+<script src="../js/megamenu.js" defer></script>
+<script src="../js/db.js" defer></script>
+<script src="../js/app.js" defer></script>
+<script src="../js/course.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Course",
+      "name": "Decision Economics, Risk, and Kill Criteria",
+      "description": "Cost modelling, unit economics, falsifiable business theses, kill/freeze/pivot criteria, build-vs-buy due diligence and portfolio governance for web publishers.",
+      "url": "https://ranklab-academy.pages.dev/courses/00-decision-economics.html",
+      "provider": { "@type": "EducationalOrganization", "name": "RankLab Academy", "url": "https://ranklab-academy.pages.dev/" },
+      "isAccessibleForFree": true,
+      "educationalLevel": "Foundation",
+      "teaches": ["Website cost modelling", "Unit economics", "Kill criteria", "Risk registers", "Build vs buy due diligence"],
+      "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online", "courseWorkload": "PT5H" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ranklab-academy.pages.dev/" },
+        { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://ranklab-academy.pages.dev/courses/" },
+        { "@type": "ListItem", "position": 3, "name": "Course 0" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body data-course="course-00" data-tier="free" data-price="Free">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../index.html"><span class="brand-mark">RL</span> RankLab <span class="muted">Academy</span></a>
+    <nav id="main-nav" class="main-nav" aria-label="Main">
+
+      <div class="nav-item">
+        <button class="nav-link mega-btn" type="button" aria-expanded="false" aria-controls="mega-curriculum">Curriculum <span class="chev" aria-hidden="true">▾</span></button>
+        <div class="mega-panel" id="mega-curriculum">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h3>Foundations</h3>
+              <ul>
+                <li><a class="mega-link" href="00-decision-economics.html"><span class="mega-num">0</span>Decision Economics <small>Free · cost model, kill criteria</small></a></li>
+                <li><a class="mega-link" href="01-search-foundations-ai-era.html"><span class="mega-num">1</span>Search in the AI Era <small>Free · zero-click survival</small></a></li>
+                <li><a class="mega-link" href="02-niche-displacement-scoring.html"><span class="mega-num">2</span>Niche Selection <small>$19 · displacement scoring</small></a></li>
+                <li><a class="mega-link" href="03-owned-audience-newsletter.html"><span class="mega-num">3</span>Owned Audience <small>$29 · newsletter as product</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Build &amp; optimise</h3>
+              <ul>
+                <li><a class="mega-link" href="04-architecture-cloudflare-legal.html"><span class="mega-num">4</span>Architecture &amp; Legal <small>$39 · Cloudflare, launch gate</small></a></li>
+                <li><a class="mega-link" href="05-technical-seo-performance-ops.html"><span class="mega-num">5</span>Technical SEO &amp; Ops <small>$49 · Core Web Vitals, schema</small></a></li>
+                <li><a class="mega-link" href="06-answer-engine-visibility.html"><span class="mega-num">6</span>Answer-Engine Visibility <small>$59 · citations, brand demand</small></a></li>
+                <li><a class="mega-link" href="07-content-eeat-editorial-economics.html"><span class="mega-num">7</span>Content &amp; E-E-A-T <small>$69 · cost per asset</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Grow &amp; monetise</h3>
+              <ul>
+                <li><a class="mega-link" href="08-onpage-cro-tool-ux.html"><span class="mega-num">8</span>On-Page &amp; Tool UX <small>$79 · money pages, CRO</small></a></li>
+                <li><a class="mega-link" href="09-apis-analytics-ai-surface.html"><span class="mega-num">9</span>APIs &amp; Analytics <small>$99 · AI-surface measurement</small></a></li>
+                <li><a class="mega-link" href="10-links-partnerships-digital-pr.html"><span class="mega-num">10</span>Links &amp; Digital PR <small>$119 · original data campaigns</small></a></li>
+                <li><a class="mega-link" href="11-monetization-compliance-resilience.html"><span class="mega-num">11</span>Monetization <small>$149 · concentration limits</small></a></li>
+                <li><a class="mega-link" href="12-capstone-3-site-portfolio.html"><span class="mega-num">12</span>Capstone Portfolio <small>$199 · pruning gates</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col mega-feature">
+              <h3>Start here</h3>
+              <p>13 courses · 78 lessons · 78 artifacts. Every course uses one spine: 6 lessons, a lab each, a scenario assessment, a final project, a checklist and an AI-agent prompt.</p>
+              <a class="btn btn-sm" href="index.html">View full curriculum</a>
+            </div>
+          </div>
+          <div class="mega-foot"><div class="mega-foot-inner">
+            <span>Rule 4 — launch 3 sites first; expand to 10 only after the gates pass.</span>
+            <a href="../blueprint/index.html">See the 12-asset MVP →</a>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-link mega-btn" type="button" aria-expanded="false" aria-controls="mega-toolkit">Toolkit <span class="chev" aria-hidden="true">▾</span></button>
+        <div class="mega-panel" id="mega-toolkit">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h3>Decide</h3>
+              <ul>
+                <li><a class="mega-link" href="../tools/unit-economics.html">Unit economics &amp; payback <small>12-month cost model</small></a></li>
+                <li><a class="mega-link" href="../tools/niche-scorer.html">Niche scorer <small>Displacement-adjusted</small></a></li>
+                <li><a class="mega-link" href="../tools/zero-click-scorecard.html">Zero-click survival scorecard</a></li>
+                <li><a class="mega-link" href="../tools/pruning-scorecard.html">Portfolio pruning scorecard</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Govern</h3>
+              <ul>
+                <li><a class="mega-link" href="../tools/claim-register.html">Claim verification register <small>90-day expiry</small></a></li>
+                <li><a class="mega-link" href="../tools/risk-register.html">Risk register <small>10 categories</small></a></li>
+                <li><a class="mega-link" href="../tools/reviewer-register.html">Reviewer register</a></li>
+                <li><a class="mega-link" href="../tools/legal-question-sheet.html">Legal counsel question sheet</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Measure &amp; build</h3>
+              <ul>
+                <li><a class="mega-link" href="../tools/revenue-rpm-calculator.html">Revenue &amp; RPM calculator</a></li>
+                <li><a class="mega-link" href="../tools/ai-surface-tracker.html">AI-surface tracking sheet</a></li>
+                <li><a class="mega-link" href="../tools/content-brief-builder.html">Content brief builder</a></li>
+                <li><a class="mega-link" href="../tools/checklists.html">Launch checklists</a></li>
+              </ul>
+            </div>
+            <div class="mega-col mega-feature">
+              <h3>Everything stays local</h3>
+              <p>Tools save to IndexedDB in your own browser. Nothing is uploaded. Export a JSON backup any time from your dashboard.</p>
+              <a class="btn btn-sm btn-outline" href="../tools/index.html">All tools</a>
+            </div>
+          </div>
+          <div class="mega-foot"><div class="mega-foot-inner">
+            <span>Rule 1 — every platform or commercial claim expires after 90 days.</span>
+            <a href="../resources/visual-assets.html">Image prompts &amp; screenshot SOPs →</a>
+          </div></div>
+        </div>
+      </div>
+
+      <a class="nav-link" href="../blueprint/index.html">Blueprint</a>
+      <a class="nav-link" href="../pricing.html">Pricing</a>
+      <a class="nav-link" href="../dashboard.html">My progress</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch theme">☾</button>
+      <button id="nav-toggle" class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<div class="page-head">
+  <div class="wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol><li><a href="../index.html">Home</a></li><li><a href="index.html">Courses</a></li><li>Course 0</li></ol>
+    </nav>
+    <p class="mb-1"><span class="badge">Course 0 · Foundation</span> <span class="badge badge-accent">Free forever</span> <span class="badge">New in v2</span></p>
+    <h1>Decision Economics, Risk, and Kill Criteria</h1>
+    <p class="lead">Most failed websites were never bad at SEO. They were bad at arithmetic. Before you register a domain, you will know what the site costs for twelve months, what it must earn to break even, and the exact numbers at which you stop.</p>
+    <ul class="pill-row">
+      <li>6 lessons</li><li>6 labs</li><li>6 artifacts</li><li>1 scenario assessment</li><li>≈5 hours</li><li>No prerequisites</li>
+    </ul>
+    <div class="progress-label"><span>Your progress · <b data-course-done>0</b>/<b data-course-total>6</b> lessons</span><span data-course-pct>0%</span></div>
+    <div class="progress" data-course-bar><i></i></div>
+    <div class="callout callout-tip mt-2 mb-0">
+      <strong class="callout-title">This course is free, permanently</strong>
+      <p class="mb-0 text-sm">All six lessons, labs and artifacts are open — no account, no email, no unlock. Course 0 exists so you can reach a defensible <em>no</em> without paying anything. Paid courses start at Course 2 ($19) and rise from there; see the <a href="../pricing.html">full price ladder</a>.</p>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <aside class="ad-slot ad-leaderboard" data-ad="header" data-ad-format="horizontal" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+</div>
+
+<div class="wrap doc-layout">
+
+  <aside class="doc-aside" aria-label="Course contents">
+    <nav class="toc">
+      <h2>On this page</h2>
+      <ol>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#lesson-1">0.1 What is decision economics?</a></li>
+        <li><a href="#lesson-2">0.2 What are unit economics?</a></li>
+        <li><a href="#lesson-3">0.3 Falsifiable business thesis</a></li>
+        <li><a href="#lesson-4">0.4 Kill, freeze and pivot criteria</a></li>
+        <li><a href="#lesson-5">0.5 Build vs buy</a></li>
+        <li><a href="#lesson-6">0.6 Governance</a></li>
+        <li><a href="#scenario">Scenario assessment</a></li>
+        <li><a href="#project">Final project</a></li>
+        <li><a href="#checklist">Course checklist</a></li>
+        <li><a href="#prompt">AI-agent prompt</a></li>
+        <li><a href="#sources">Sources</a></li>
+      </ol>
+    </nav>
+    <div class="callout callout-tip mt-2">
+      <strong class="callout-title">Governing question</strong>
+      <p class="mb-0 text-sm">If Google disappeared tomorrow, why would anyone still come back to this brand?</p>
+    </div>
+  </aside>
+
+  <article>
+    <section id="overview" class="lesson">
+      <h2 class="mt-0">Overview: why economics comes before SEO</h2>
+      <p>In v1 of this academy, Course 1 was SEO foundations. That order rewarded enthusiasm and punished judgement: students launched ten sites, published hundreds of pages, and discovered the cost of expert review, tool development and content refresh only after the money was spent.</p>
+      <p>v2 puts a financial gate in front of everything. A website is a capital allocation decision with a long payback period and a real chance of returning zero. Course 0 teaches you to treat it that way — and to write down, in advance, the evidence that would prove you wrong.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Lessons, labs and artifacts in Course 0</caption>
+          <thead><tr><th>Lesson</th><th>Lab</th><th>Artifact you keep</th></tr></thead>
+          <tbody>
+            <tr><td>0.1 Decision economics</td><td>Price every line item for one site</td><td>12-month budget model</td></tr>
+            <tr><td>0.2 Unit economics</td><td>Cost and revenue per asset and per subscriber</td><td>Unit economics sheet</td></tr>
+            <tr><td>0.3 Falsifiable thesis</td><td>Write the belief and the disproof evidence</td><td>Site investment memo</td></tr>
+            <tr><td>0.4 Kill/freeze/pivot</td><td>Set month 3, 6 and 9 gates</td><td>Kill criteria document</td></tr>
+            <tr><td>0.5 Build vs buy</td><td>Run due diligence on one listed site</td><td>Build-vs-buy checklist</td></tr>
+            <tr><td>0.6 Governance</td><td>Stand up four registers</td><td>Governance dashboard</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout callout-warn">
+        <strong class="callout-title">Rule 1 applies from lesson one</strong>
+        <p class="mb-0">Every platform, ad-network, tool or compliance claim you write down needs <code>Claim / Source URL / Verified / Owner / Expires / Status</code>, and expires after 90 days. The numbers in this course are worked examples with invented values — replace them with quotes you actually received.</p>
+      </div>
+    </section>
+
+    <section id="lesson-1" class="lesson">
+      <h2><span class="lesson-num">0.1</span> What is decision economics?</h2>
+
+      <h3>What is it?</h3>
+      <p>Decision economics is the practice of pricing a decision before making it. For a publisher it means one number — the fully loaded twelve-month cost of operating one website at the quality level the topic demands — and the confidence interval around it.</p>
+
+      <h3>Why it matters</h3>
+      <p>Search results in commercially valuable niches are now defended by teams with editors, licensed reviewers, original data and engineering. Entering that market without knowing your budget ceiling is how people spend eleven months of effort and abandon a site in month twelve, one month before compounding would have started.</p>
+
+      <h3>How to do it</h3>
+      <ol>
+        <li>List every cost line below, even the ones you plan to do yourself.</li>
+        <li>Price your own labour at a real hourly rate. Free labour hides the true cost of a bad niche.</li>
+        <li>Get three actual quotes for anything you will outsource (writing, expert review, tool development).</li>
+        <li>Split costs into <em>setup</em> (one-off), <em>run</em> (monthly) and <em>variable</em> (per asset).</li>
+        <li>Add a 20% contingency line. Refreshes and reviewer re-reads always exceed the estimate.</li>
+        <li>Produce three scenarios: lean, expected, and quality-first.</li>
+      </ol>
+      <pre><code>Cost lines to price (per site, 12 months)
+
+Domain                       Screenshots/media
+Hosting / CMS                Newsletter software
+Cloudflare / tooling         Analytics
+SEO tools                    PR / link building
+Content briefs               Maintenance
+Writing                      Refresh cost
+Editing                      Contingency (20%)
+Expert review                Your own labour (hours x rate)
+Legal review
+Design
+Calculator / tool development</code></pre>
+
+      <h3>Tools needed</h3>
+      <p>A spreadsheet (or the academy <a href="../tools/unit-economics.html">unit economics &amp; budget tool</a>), three written quotes, and your own time log for two typical weeks.</p>
+
+      <h3>Lab 0.1</h3>
+      <p>Price all sixteen lines for <strong>SMB Finance and Banking</strong>, the first Phase 1 site. Produce lean, expected and quality-first totals. Then answer in one sentence: what is the largest single cost, and would you still build if it doubled?</p>
+
+      <h3>Artifact</h3>
+      <pre><code>12-month budget model
+- Setup costs
+- Monthly run costs
+- Variable cost per asset
+- Three scenarios (lean / expected / quality-first)
+- Budget ceiling and owner</code></pre>
+
+      <h3>Common mistakes</h3>
+      <ul>
+        <li>Valuing your own time at zero, which makes every niche look profitable.</li>
+        <li>Budgeting content but not refresh — dated assets need money every quarter, forever.</li>
+        <li>Forgetting expert review in YMYL topics, then quietly dropping it when the invoice arrives.</li>
+        <li>Treating tool development as a weekend project when it is the main defensible asset.</li>
+      </ul>
+
+      <h3>Pro astuces</h3>
+      <ul>
+        <li>Budget the first tool before the first article. It is the asset an AI answer cannot replace.</li>
+        <li>Track cost per <em>published and reviewed</em> asset, not per draft. Drafts are not inventory.</li>
+        <li>Keep a "decisions we did not fund" list. It becomes your Phase 2 pipeline.</li>
+      </ul>
+
+      <figure class="figure-ph">
+        <div class="ph-box"><span><b>Image placeholder — budget model spreadsheet</b>16:9 illustration of a three-scenario cost model</span></div>
+        <figcaption>Figure 0.1 — Twelve-month cost model, three scenarios.</figcaption>
+        <details>
+          <summary>Image generation prompt</summary>
+          <p class="text-sm mb-0">"Clean flat vector illustration of a spreadsheet dashboard showing a 12-month website budget with three scenario columns labelled Lean, Expected, Quality-first, a stacked bar chart of cost categories, and a highlighted budget ceiling line. Blue and teal palette, white background, no text smaller than 14px, no logos, 16:9."</p>
+        </details>
+        <details>
+          <summary>Screenshot SOP (if you use your own sheet)</summary>
+          <ol class="text-sm mb-0">
+            <li>Open your budget sheet in a clean browser profile at 1440×900.</li>
+            <li>Hide rows containing real supplier names or rates you are not licensed to publish.</li>
+            <li>Capture the visible range only; do not capture browser tabs, bookmarks or account emails.</li>
+            <li>Blur any invoice numbers or client identifiers.</li>
+            <li>Save as <code>c0-budget-model-YYYY-MM.png</code> and log source + date in your media register.</li>
+          </ol>
+        </details>
+      </figure>
+
+      <div class="notes-box">
+        <label class="text-sm" for="note-l1"><strong>Your notes</strong> — saved to this browser only</label>
+        <textarea id="note-l1" data-note="lesson-1" placeholder="Largest cost line, your budget ceiling, who owns the number…"></textarea>
+        <span class="notes-status">Not saved yet</span>
+      </div>
+      <div class="lesson-foot">
+        <label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 0.1 complete</label>
+        <span class="text-sm muted">Artifact: 12-month budget model</span>
+      </div>
+    </section>
+
+    <section id="lesson-2" class="lesson">
+      <h2><span class="lesson-num">0.2</span> What are unit economics?</h2>
+
+      <h3>What is it?</h3>
+      <p>Unit economics reduce a whole business to the profit or loss of one repeatable unit. For a publisher the units are: one published asset, one subscriber, one lead, and one tool completion.</p>
+
+      <h3>Why it matters</h3>
+      <p>Portfolio-level revenue hides everything. A site earning money overall can still be publishing assets that will never repay their cost. Unit economics tell you which asset <em>type</em> to make more of — and in the AI era the answer is usually tools, data and commercial pages, not explainers.</p>
+
+      <h3>How to do it</h3>
+      <ol>
+        <li>Compute cost per published asset = total variable cost ÷ assets published.</li>
+        <li>Compute cost per expert-reviewed page separately; it is often 2–4× a standard page.</li>
+        <li>Compute cost per subscriber = acquisition spend ÷ net new subscribers.</li>
+        <li>Compute revenue per page, per subscriber and per lead over a rolling 90 days.</li>
+        <li>Payback period = cost of asset ÷ monthly revenue attributable to that asset.</li>
+        <li>Break-even month = the month cumulative revenue crosses cumulative cost.</li>
+      </ol>
+      <pre><code>Unit economics sheet
+
+Cost per published asset          Revenue per page
+Cost per expert-reviewed page     Revenue per subscriber
+Cost per subscriber               Revenue per lead
+Cost per tool                     Payback period (months)
+Cost per data asset               Break-even month</code></pre>
+
+      <h3>Tools needed</h3>
+      <p>Spreadsheet, analytics revenue export, affiliate/network reports, newsletter platform stats. Use <a href="../tools/unit-economics.html">Unit economics &amp; payback</a> to model it before you have real data.</p>
+
+      <h3>Lab 0.2</h3>
+      <p>Model a site with 12 assets: 2 pillars at high cost, 3 money pages at medium cost, 2 tools at high cost, 2 data assets at medium-high cost, 3 support articles at low cost. Assume a plausible revenue path and find the break-even month. Then halve the traffic assumption and find it again.</p>
+
+      <h3>Artifact</h3>
+      <pre><code>Unit economics sheet with payback per asset type and two traffic scenarios</code></pre>
+
+      <h3>Common mistakes</h3>
+      <ul>
+        <li>Averaging revenue across all pages, which flatters weak informational content.</li>
+        <li>Ignoring refresh cost, which turns a profitable dated asset into a loss-maker in year two.</li>
+        <li>Counting gross affiliate revenue before reversals and returns.</li>
+        <li>Assuming subscriber value without ever measuring revenue per subscriber.</li>
+      </ul>
+
+      <h3>Pro astuces</h3>
+      <ul>
+        <li>Report revenue per <em>asset type</em> monthly. It is the single most decision-useful table you will own.</li>
+        <li>If cost per subscriber is below three months of revenue per subscriber, spend more on the lead magnet.</li>
+        <li>Tools have near-zero marginal cost after launch — model them as capital, not content.</li>
+      </ul>
+
+      <div class="quiz" data-quiz="lesson-2">
+        <h4>Knowledge check (3 questions)</h4>
+        <details><summary>1. Why is cost per expert-reviewed page tracked separately?</summary><p class="answer">Because reviewer time is scarce and expensive, and it caps how many YMYL pages you can publish per month. Blending it into an average hides the real constraint.</p></details>
+        <details><summary>2. A tool costs 4,000 and returns 250/month. What is the payback period?</summary><p class="answer">16 months. That is acceptable only if the tool also drives subscribers, links and citations — which is why tool value is measured on multiple units, not just direct revenue.</p></details>
+        <details><summary>3. What breaks a payback calculation most often?</summary><p class="answer">Omitted refresh cost and revenue counted before affiliate reversals.</p></details>
+        <div class="self-score">
+          <span>Self-score:</span>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="1">1</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="2">2</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="3">3</button>
+          <strong data-quiz-out>Not scored yet</strong>
+        </div>
+      </div>
+
+      <div class="notes-box">
+        <label class="text-sm" for="note-l2"><strong>Your notes</strong></label>
+        <textarea id="note-l2" data-note="lesson-2" placeholder="Break-even month, most expensive unit, cheapest profitable unit…"></textarea>
+        <span class="notes-status">Not saved yet</span>
+      </div>
+      <div class="lesson-foot">
+        <label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 0.2 complete</label>
+        <span class="text-sm muted">Artifact: Unit economics sheet</span>
+      </div>
+    </section>
+
+    <aside class="ad-slot ad-inarticle" data-ad="inarticle" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+
+    <section id="lesson-3" class="lesson">
+      <h2><span class="lesson-num">0.3</span> What is a falsifiable business thesis?</h2>
+
+      <h3>What is it?</h3>
+      <p>A thesis is a written belief about a specific audience, plus the evidence that would prove it false by a specific date. "This niche has high CPM" is not a thesis. It is a hope with a number attached.</p>
+
+      <h3>Why it matters</h3>
+      <p>Without falsifiability there is no honest way to stop. Every disappointing month gets reinterpreted as "SEO takes time", and the sunk cost grows. A thesis converts opinion into a testable claim, which is also what makes a portfolio sellable.</p>
+
+      <h3>How to do it</h3>
+      <ol>
+        <li>Name the buyer precisely (not "small businesses" but "owner-operators with 3–20 staff who handle their own banking").</li>
+        <li>State the belief in one sentence, including the behaviour you expect.</li>
+        <li>List the evidence required by month 6, with numbers.</li>
+        <li>List the evidence that would <em>disprove</em> it, with numbers.</li>
+        <li>Name the owner and the review date.</li>
+      </ol>
+      <pre><code>Example thesis — Site 1 (SMB Finance and Banking)
+
+We believe small-business operators will subscribe to a weekly finance
+newsletter if we provide calculators, templates and funding updates.
+
+Evidence needed by month 6:
+- X subscribers
+- Y tool completions
+- Z pages with search traction
+- at least N qualified affiliate/lead clicks
+
+Disproof by month 6:
+- signup rate below 1% on tool pages after 2 iterations
+- fewer than 3 assets with any impression growth
+- zero repeat newsletter click cohort</code></pre>
+
+      <h3>Tools needed</h3>
+      <p>Investment memo template, keyword/impression baseline, competitor newsletter samples, one page of buyer interview notes (three real conversations beat thirty assumptions).</p>
+
+      <h3>Lab 0.3</h3>
+      <p>Write theses for all three Phase 1 sites. Each must fit on one page and contain at least four numeric disproof conditions. Show one to somebody who will argue with you and record their strongest objection.</p>
+
+      <h3>Artifact</h3>
+      <pre><code>Site investment memo (one per Phase 1 site)</code></pre>
+
+      <h3>Common mistakes</h3>
+      <ul>
+        <li>Writing a thesis about traffic instead of about people and payment.</li>
+        <li>Setting evidence thresholds after seeing the first data.</li>
+        <li>Confusing the method ("SEO works") with the business bet ("this audience will subscribe").</li>
+      </ul>
+
+      <h3>Pro astuces</h3>
+      <ul>
+        <li>Put the disproof conditions in the same document as the budget. Approval means accepting both.</li>
+        <li>Date-stamp the memo and never edit it in place — version it, so future you can audit past you.</li>
+      </ul>
+
+      <div class="notes-box">
+        <label class="text-sm" for="note-l3"><strong>Your notes</strong></label>
+        <textarea id="note-l3" data-note="lesson-3" placeholder="Your one-sentence thesis and four disproof numbers…"></textarea>
+        <span class="notes-status">Not saved yet</span>
+      </div>
+      <div class="lesson-foot">
+        <label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 0.3 complete</label>
+        <span class="text-sm muted">Artifact: Site investment memo</span>
+      </div>
+    </section>
+
+    <section id="lesson-4" class="lesson">
+      <h2><span class="lesson-num">0.4</span> What are kill, freeze, and pivot criteria?</h2>
+
+      <h3>What is it?</h3>
+      <p>Thresholds, written before launch, that convert evidence into one of four decisions: continue, pivot the content mix, freeze new investment, or kill and reallocate.</p>
+
+      <h3>Why it matters</h3>
+      <p>Portfolio returns come from concentration, and concentration requires pruning. Publishers who never kill anything end up maintaining nine mediocre sites and cannot fund the one that works.</p>
+
+      <h3>How to do it</h3>
+      <ol>
+        <li>Define three gates: month 3 (infrastructure), month 6 (traction), month 9 (economics).</li>
+        <li>For each gate, list observable checks — not feelings.</li>
+        <li>Attach one decision per gate, with a default action if nobody reviews it.</li>
+        <li>Store the gates where you will see them: the governance dashboard, not a buried doc.</li>
+      </ol>
+      <pre><code>Month 3 gate                     Month 6 gate
+- Site technically indexed        - Search impressions growing
+- Newsletter live                 - Email conversion above target
+- First tool live                 - At least one monetization signal
+- 12 assets published/scheduled   - One linkable asset campaign done
+
+Month 9 gate
+- Revenue per published page evaluated
+- Subscriber acquisition evaluated
+- Keep / freeze / pivot / sell decision made</code></pre>
+
+      <h3>Tools needed</h3>
+      <p>Calendar reminders on the gate dates, the <a href="../tools/pruning-scorecard.html">portfolio pruning scorecard</a>, and one named decision owner.</p>
+
+      <h3>Lab 0.4</h3>
+      <p>Write gate criteria for one Phase 1 site with explicit numbers, then write the sentence you will say to yourself if the month 6 gate fails. Rehearsing the stop is what makes it possible.</p>
+
+      <h3>Artifact</h3>
+      <pre><code>Kill/freeze/pivot criteria document with gate dates and default actions</code></pre>
+
+      <h3>Common mistakes</h3>
+      <ul>
+        <li>Gates with no dates, or dates with no owner.</li>
+        <li>Killing on traffic alone, when subscribers and tool usage are growing.</li>
+        <li>Freezing a site without cancelling its recurring costs.</li>
+      </ul>
+
+      <h3>Pro astuces</h3>
+      <ul>
+        <li>"Freeze" beats "kill" when a site has a small but engaged list — stop publishing, keep sending.</li>
+        <li>A failed gate should trigger a written post-mortem of one page maximum. Longer ones never get read.</li>
+      </ul>
+
+      <div class="notes-box">
+        <label class="text-sm" for="note-l4"><strong>Your notes</strong></label>
+        <textarea id="note-l4" data-note="lesson-4" placeholder="Gate dates, numbers, decision owner…"></textarea>
+        <span class="notes-status">Not saved yet</span>
+      </div>
+      <div class="lesson-foot">
+        <label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 0.4 complete</label>
+        <span class="text-sm muted">Artifact: Kill criteria document</span>
+      </div>
+    </section>
+
+    <section id="lesson-5" class="lesson">
+      <h2><span class="lesson-num">0.5</span> What is build vs buy?</h2>
+
+      <h3>What is it?</h3>
+      <p>The choice between starting a site from zero and acquiring an existing one. There is a legitimate version — buying a real operating website with traffic, revenue and a list — and a risky version: buying expired domains to manipulate authority.</p>
+
+      <h3>Why it matters</h3>
+      <p>Buying can compress two years of ramp into one transaction. It can also transfer somebody else's manual actions, unlicensed lead-gen liabilities and non-transferable affiliate accounts to you. The difference is due diligence.</p>
+
+      <div class="callout callout-danger">
+        <strong class="callout-title">Red line</strong>
+        <p class="mb-0">Acquiring expired domains to redirect or rebuild purely for link equity is a link scheme pattern. This academy does not teach it. Buy operating businesses, not authority.</p>
+      </div>
+
+      <h3>How to do it</h3>
+      <ol>
+        <li>Request read access to analytics and Search Console — not screenshots.</li>
+        <li>Reconcile revenue against network dashboards and bank statements for 12 months.</li>
+        <li>Check the backlink profile for paid or networked patterns you would have to disavow or live with.</li>
+        <li>Ask directly about manual actions, and verify in Search Console yourself.</li>
+        <li>Check whether affiliate accounts, reviewer contracts and licences transfer at all.</li>
+        <li>Price the refresh debt: how many assets are stale, and what will re-review cost?</li>
+      </ol>
+      <pre><code>Due diligence checklist
+Traffic history        Content quality
+Revenue proof          Legal liabilities
+Email list quality     Affiliate account transferability
+Backlink profile       Analytics access
+Manual actions         Ownership/IP rights
+                       Reason for sale</code></pre>
+
+      <h3>Tools needed</h3>
+      <p>Search Console and analytics read access, a backlink tool, an escrow service, and a lawyer for the asset purchase agreement.</p>
+
+      <h3>Lab 0.5</h3>
+      <p>Find one publicly listed content site in a Phase 1 adjacent niche. Run the eleven-point checklist using only what the listing discloses, then write the five questions that would decide the deal. Do not contact the seller unless you are genuinely buying.</p>
+
+      <h3>Artifact</h3>
+      <pre><code>Build-vs-buy decision checklist with a build/buy/walk recommendation</code></pre>
+
+      <h3>Common mistakes</h3>
+      <ul>
+        <li>Believing screenshots. Always verify inside the platform.</li>
+        <li>Ignoring the email list's consent status — an unconsented list is a liability, not an asset.</li>
+        <li>Underpricing refresh debt on dated content.</li>
+      </ul>
+
+      <h3>Pro astuces</h3>
+      <ul>
+        <li>Ask for the seller's refresh log. Its absence tells you the true content age.</li>
+        <li>Weight a real newsletter list far above raw sessions; it survives ranking volatility.</li>
+      </ul>
+
+      <div class="quiz" data-quiz="lesson-5">
+        <h4>Knowledge check (3 questions)</h4>
+        <details><summary>1. What separates a legitimate acquisition from authority manipulation?</summary><p class="answer">Buying an operating business with real users, revenue and continuity of purpose versus buying a dead domain to harvest link equity for an unrelated site.</p></details>
+        <details><summary>2. Which single asset most reduces post-acquisition risk?</summary><p class="answer">A consented, engaged email list — it keeps delivering traffic if rankings move.</p></details>
+        <details><summary>3. Why request Search Console access rather than reports?</summary><p class="answer">To verify manual actions, indexing health and query mix directly, and to detect edited exports.</p></details>
+        <div class="self-score">
+          <span>Self-score:</span>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="1">1</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="2">2</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="3">3</button>
+          <strong data-quiz-out>Not scored yet</strong>
+        </div>
+      </div>
+
+      <div class="notes-box">
+        <label class="text-sm" for="note-l5"><strong>Your notes</strong></label>
+        <textarea id="note-l5" data-note="lesson-5" placeholder="Deal-breakers you would not accept…"></textarea>
+        <span class="notes-status">Not saved yet</span>
+      </div>
+      <div class="lesson-foot">
+        <label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 0.5 complete</label>
+        <span class="text-sm muted">Artifact: Build-vs-buy checklist</span>
+      </div>
+    </section>
+
+    <section id="lesson-6" class="lesson">
+      <h2><span class="lesson-num">0.6</span> What is governance?</h2>
+
+      <h3>What is it?</h3>
+      <p>The small set of registers and rituals that keep a portfolio honest: who owns what, which claims are still verified, which risks are live, and what gets reviewed each month.</p>
+
+      <h3>Why it matters</h3>
+      <p>Publishing is a slow-feedback business. Governance is how you notice a problem in month 4 instead of month 14 — an expired affiliate term, a reviewer who stopped replying, a single program that quietly became 70% of revenue.</p>
+
+      <h3>How to do it</h3>
+      <ol>
+        <li>Create four registers: <a href="../tools/claim-register.html">claim verification</a>, <a href="../tools/risk-register.html">risk</a>, <a href="../tools/reviewer-register.html">reviewer</a>, and content approval.</li>
+        <li>Give every register an owner and a review cadence (monthly is enough).</li>
+        <li>Adopt a versioning protocol: every SOP and claim has a verified date and an expiry date.</li>
+        <li>Set the 90-day recheck rule for all platform and commercial claims.</li>
+        <li>Run a 60-minute monthly portfolio review with a fixed agenda.</li>
+      </ol>
+      <pre><code>Risk register fields
+Risk | Category | Likelihood | Impact | Leading indicator |
+Owner | Mitigation | Trigger | Decision | Review date
+
+Categories: platform, AI-search, Google policy, compliance,
+reviewer/key-person, revenue concentration, traffic concentration,
+cash burn, security/privacy, acquisition</code></pre>
+
+      <h3>Tools needed</h3>
+      <p>A spreadsheet or database, calendar recurrence, and the academy register tools. Nothing heavier — governance dies when it needs software adoption.</p>
+
+      <h3>Lab 0.6</h3>
+      <p>Populate the risk register with at least one live risk per category (ten rows), each with a leading indicator and a trigger. Then populate the claim register with five claims you already believe about ad networks or affiliate terms, and mark how many you can actually source today.</p>
+
+      <h3>Artifact</h3>
+      <pre><code>Portfolio governance dashboard: four registers + monthly agenda + owners</code></pre>
+
+      <h3>Common mistakes</h3>
+      <ul>
+        <li>Registers with no owner — they become archaeology within two months.</li>
+        <li>Risks without leading indicators, which means you only learn about them after the damage.</li>
+        <li>Copying compliance claims from blog posts instead of primary sources.</li>
+      </ul>
+
+      <h3>Pro astuces</h3>
+      <ul>
+        <li>Put the expiry date column first. Sorting by it turns the register into a to-do list.</li>
+        <li>Log the <em>decision</em>, not just the risk. Future you needs to know what was chosen and why.</li>
+      </ul>
+
+      <div class="notes-box">
+        <label class="text-sm" for="note-l6"><strong>Your notes</strong></label>
+        <textarea id="note-l6" data-note="lesson-6" placeholder="Your ten risks and their triggers…"></textarea>
+        <span class="notes-status">Not saved yet</span>
+      </div>
+      <div class="lesson-foot">
+        <label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 0.6 complete</label>
+        <span class="text-sm muted">Artifact: Governance dashboard</span>
+      </div>
+    </section>
+
+    <aside class="ad-slot ad-inarticle" data-ad="inarticle2" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+
+    <section id="scenario" class="lesson">
+      <h2>Scenario assessment: the enthusiastic ten-site plan</h2>
+      <p class="lead">Scenario assessments replace most quizzes in v2. There is rarely one correct answer — there is a defensible one, supported by numbers you can show.</p>
+      <blockquote>
+        <p class="mb-0">A student has 18,000 of capital and 20 hours a week. They plan to launch all ten niches at once, publishing 30 pages per site in the first quarter, using AI drafts with light editing. Three of the niches (insurance, mortgage, health benefits) are YMYL. They have no reviewers, no newsletter and no tools planned. They ask you to sanity-check the plan.</p>
+      </blockquote>
+      <div class="quiz" data-quiz="scenario">
+        <h4>Answer before opening the model responses (5 questions)</h4>
+        <details><summary>1. What is the fastest arithmetic that shows the plan fails?</summary><p class="answer">300 pages ÷ capital = roughly 60 per asset, which cannot cover a brief, a draft, an edit, media and any review — before hosting, tools or refresh. And 20 hours a week across ten sites is two hours per site per week, less than one asset per month each.</p></details>
+        <details><summary>2. Which three niches should be deferred, and why?</summary><p class="answer">Insurance, mortgage and health benefits: highest reviewer cost, licensing exposure for lead generation, and the highest AI-displacement risk on definitional content. Defer to Phase 2 behind counsel review.</p></details>
+        <details><summary>3. What replaces "30 pages per site"?</summary><p class="answer">A 12-asset MVP per site: 2 pillars, 3 money pages, 2 tools, 2 data/tracker assets, 3 support articles — with the tool and newsletter shipped before the support articles.</p></details>
+        <details><summary>4. What is the minimum viable governance for this student?</summary><p class="answer">One budget model, one thesis and one kill-criteria document per site, plus the claim register. Risk and reviewer registers become mandatory the moment a YMYL site is funded.</p></details>
+        <details><summary>5. Give the one-sentence recommendation.</summary><p class="answer">Fund one site fully (SMB Finance and Banking) with a 12-asset MVP, a newsletter and one calculator; hold the remaining capital until the month 6 gate produces evidence.</p></details>
+        <div class="self-score">
+          <span>Self-score (how many of your answers matched the reasoning):</span>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="1">1</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="2">2</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="3">3</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="4">4</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="5">5</button>
+          <strong data-quiz-out>Not scored yet</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="lesson">
+      <h2>Final project: the 3-site portfolio investment memo</h2>
+      <p>Produce one document an investor (or a sceptical spouse) could approve or reject.</p>
+      <pre><code>Investment memo contents
+Why these 3 sites            Traffic assumptions
+Budget                       Kill criteria
+Expected cost per site       Risk register
+Expected cost per asset      Month 9 pruning plan
+Reviewer requirements
+Revenue assumptions</code></pre>
+      <p><strong>Pass standard:</strong> every number is traceable to a quote, a measurement or a stated assumption; every assumption has a disproof condition; the memo fits in five pages.</p>
+    </section>
+
+    <section id="checklist" class="lesson">
+      <h2>Course 0 checklist</h2>
+      <p class="text-sm muted">Ticks are saved in your browser with IndexedDB.</p>
+      <ul class="checklist" data-checklist="course-00-final">
+        <li><input type="checkbox" id="c0-1" data-key="c0-1"><label for="c0-1">12-month budget model complete with three scenarios and a contingency line</label></li>
+        <li><input type="checkbox" id="c0-2" data-key="c0-2"><label for="c0-2">Own labour priced at a real hourly rate</label></li>
+        <li><input type="checkbox" id="c0-3" data-key="c0-3"><label for="c0-3">Unit economics sheet with payback per asset type</label></li>
+        <li><input type="checkbox" id="c0-4" data-key="c0-4"><label for="c0-4">Falsifiable thesis written for each Phase 1 site</label></li>
+        <li><input type="checkbox" id="c0-5" data-key="c0-5"><label for="c0-5">Month 3, 6 and 9 gates dated, with numbers and an owner</label></li>
+        <li><input type="checkbox" id="c0-6" data-key="c0-6"><label for="c0-6">Build-vs-buy checklist applied to one real listing</label></li>
+        <li><input type="checkbox" id="c0-7" data-key="c0-7"><label for="c0-7">Risk register populated across all ten categories</label></li>
+        <li><input type="checkbox" id="c0-8" data-key="c0-8"><label for="c0-8">Claim verification register started, with 90-day expiry dates</label></li>
+        <li><input type="checkbox" id="c0-9" data-key="c0-9"><label for="c0-9">Monthly review scheduled with a fixed agenda</label></li>
+        <li><input type="checkbox" id="c0-10" data-key="c0-10"><label for="c0-10">Investment memo written and reviewed by one critic</label></li>
+      </ul>
+      <div class="flex between">
+        <span class="text-sm"><b data-checklist-count>0</b> complete</span>
+        <button class="btn btn-sm btn-outline" type="button" data-checklist-reset>Reset</button>
+      </div>
+      <div class="progress mt-2" data-checklist-bar><i></i></div>
+    </section>
+
+    <section id="prompt" class="lesson">
+      <h2>AI-agent prompt for Course 0</h2>
+      <div class="prompt-block">
+        <div class="prompt-head"><strong>Decision economics co-pilot</strong><button class="btn btn-sm btn-ghost" type="button" data-copy="#p-c0">Copy</button></div>
+        <pre id="p-c0"><code>Act as an editorial economist and portfolio risk analyst for an independent web publisher.
+
+Context I will paste: my niche, my capital, my weekly hours, my quotes for writing, editing and expert review.
+
+Do this:
+1. Build a 12-month cost model with setup, run and variable-per-asset lines, plus a 20% contingency and my own labour priced at the rate I give you. Produce lean, expected and quality-first scenarios.
+2. Derive unit economics: cost per published asset, cost per expert-reviewed page, cost per subscriber, revenue per page, revenue per subscriber, revenue per lead, payback period and break-even month.
+3. Write a falsifiable thesis for the site: one belief sentence, four numeric evidence conditions by month 6, and four numeric disproof conditions.
+4. Propose month 3, 6 and 9 gates with observable checks and a default action if the gate is missed.
+5. Populate a risk register with one risk per category: platform, AI-search, Google policy, compliance, reviewer/key-person, revenue concentration, traffic concentration, cash burn, security/privacy, acquisition. Include leading indicator, trigger and owner.
+6. List every assumption you had to invent, and mark each one as "needs primary source" with the type of source required.
+
+Rules:
+- Never state a platform, ad-network or affiliate term as fact. Output it as a claim row with Claim / Source URL / Verified / Owner / Expires / Status and leave the URL for me to fill.
+- Assume the MVP is 12 high-value assets, not 30 articles.
+- Assume 3 sites launch first, not 10.
+- Flag any recommendation that would require legal counsel before launch.
+Output as tables I can paste into a spreadsheet.</code></pre>
+      </div>
+    </section>
+
+    <section id="sources" class="lesson">
+      <h2>Primary sources for this course</h2>
+      <p class="text-sm">Verify before you publish anything derived from them, and record the verification in your claim register.</p>
+      <ul>
+        <li><a href="https://developers.google.com/search/docs/essentials" rel="noopener">Google Search Essentials</a></li>
+        <li><a href="https://developers.google.com/search/docs/essentials/spam-policies" rel="noopener">Google spam policies</a> — read before considering any acquisition for link equity</li>
+        <li><a href="https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews" rel="noopener">FTC endorsement, influencer and review guidance</a></li>
+      </ul>
+      <div class="btn-row mt-2">
+        <a class="btn" href="01-search-foundations-ai-era.html">Next: Course 1 — Search foundations in the AI/zero-click era →</a>
+        <a class="btn btn-outline" href="index.html">All courses</a>
+      </div>
+    </section>
+  </article>
+
+  <aside class="doc-aside doc-aside-right" aria-label="Sidebar">
+    <div class="ad-slot ad-sidebar" data-ad="sidebar" aria-label="Advertisement"><div class="ad-inner"></div></div>
+    <div class="card mt-2">
+      <h3 class="mt-0 text-sm">Artifacts from this course</h3>
+      <ol class="text-sm mb-0">
+        <li>12-month budget model</li>
+        <li>Unit economics sheet</li>
+        <li>Site investment memo</li>
+        <li>Kill/freeze/pivot criteria</li>
+        <li>Build-vs-buy checklist</li>
+        <li>Governance dashboard</li>
+      </ol>
+    </div>
+  </aside>
+</div>
+
+<div class="wrap">
+  <aside class="ad-slot ad-footer" data-ad="footer" data-ad-format="horizontal" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="../index.html"><span class="brand-mark">RL</span> RankLab Academy</a>
+        <p class="text-sm muted mt-2">Durable owned-audience assets for the AI/zero-click era. Educational content — not financial, legal, medical or insurance advice.</p>
+      </div>
+      <div><h3>Learn</h3><ul>
+        <li><a href="index.html">All courses</a></li>
+        <li><a href="../tools/index.html">Tools</a></li>
+        <li><a href="../prompts/index.html">Prompts</a></li>
+        <li><a href="../blueprint/index.html">Blueprint</a></li>
+        <li><a href="../dashboard.html">My progress</a></li>
+      </ul></div>
+      <div><h3>Trust</h3><ul>
+        <li><a href="../about.html">About &amp; ownership</a></li>
+        <li><a href="../authors.html">Authors</a></li>
+        <li><a href="../editorial-policy.html">Editorial policy</a></li>
+        <li><a href="../review-methodology.html">Review methodology</a></li>
+        <li><a href="../corrections.html">Corrections</a></li>
+      </ul></div>
+      <div><h3>Legal</h3><ul>
+        <li><a href="../advertiser-disclosure.html">Advertiser disclosure</a></li>
+        <li><a href="../privacy-policy.html">Privacy policy</a></li>
+        <li><a href="../terms.html">Terms</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> RankLab Academy · v2.0 curriculum</span>
+      <span>Progress stored locally with IndexedDB.</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

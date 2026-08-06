@@ -1,0 +1,126 @@
+<!-- ==========================================================================
+     RankLab Academy — canonical site header with mega menu
+     REFERENCE COPY. This is the exact markup used on every page; only the
+     relative path prefix changes (`../` from a subdirectory, `` from root).
+
+     STRUCTURE CONTRACT (do not change without re-reading css/style.css):
+     - Each .mega-panel is a child of its .nav-item, which is inside #main-nav.
+     - .nav-item and .main-nav are position:static, so an absolutely positioned
+       panel resolves against .site-header (position:sticky). Placement is pure
+       CSS; no JavaScript ever measures or sets coordinates.
+     - Closed = the `hidden` attribute (display:none). Never opacity, never
+       visibility, never off-screen. A closed panel cannot swallow clicks or
+       trap focus.
+     - With JavaScript disabled, `has-js` is never added and no panel is
+       hidden: every link stays visible, focusable and crawlable.
+     ========================================================================== -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ROOT}}index.html"><span class="brand-mark">RL</span> RankLab <span class="muted">Academy</span></a>
+
+    <nav id="main-nav" class="main-nav" aria-label="Main">
+
+      <div class="nav-item">
+        <button class="nav-link mega-btn" type="button" aria-expanded="false" aria-controls="mega-curriculum">
+          Curriculum <span class="chev" aria-hidden="true">▾</span>
+        </button>
+        <div class="mega-panel" id="mega-curriculum">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h3>Foundations</h3>
+              <ul>
+                <li><a class="mega-link" href="{{ROOT}}courses/00-decision-economics.html"><span class="mega-num">0</span>Decision Economics <small>Cost model, kill criteria</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}courses/01-search-foundations-ai-era.html"><span class="mega-num">1</span>Search in the AI Era <small>Zero-click survival</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}courses/02-niche-displacement-scoring.html"><span class="mega-num">2</span>Niche Selection <small>Displacement-adjusted scoring</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}courses/03-owned-audience-newsletter.html"><span class="mega-num">3</span>Owned Audience <small>Newsletter as product</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Build &amp; optimise</h3>
+              <ul>
+                <li><a class="mega-link" href="{{ROOT}}courses/04-architecture-cloudflare-legal.html"><span class="mega-num">4</span>Architecture &amp; Legal <small>Cloudflare, DNS, launch gate</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}courses/05-technical-seo-performance-ops.html"><span class="mega-num">5</span>Technical SEO &amp; Ops <small>Core Web Vitals, schema</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}courses/06-answer-engine-visibility.html"><span class="mega-num">6</span>Answer-Engine Visibility <small>Citations, brand demand</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}courses/07-content-eeat-editorial-economics.html"><span class="mega-num">7</span>Content &amp; E-E-A-T <small>Cost per asset, reviewers</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Grow &amp; monetise</h3>
+              <ul>
+                <li><a class="mega-link" href="{{ROOT}}courses/08-onpage-cro-tool-ux.html"><span class="mega-num">8</span>On-Page &amp; Tool UX <small>Money pages, CRO</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}courses/09-apis-analytics-ai-surface.html"><span class="mega-num">9</span>APIs &amp; Analytics <small>AI-surface measurement</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}courses/10-links-partnerships-digital-pr.html"><span class="mega-num">10</span>Links &amp; Digital PR <small>Original data campaigns</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}courses/11-monetization-compliance-resilience.html"><span class="mega-num">11</span>Monetization <small>Concentration limits</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}courses/12-capstone-3-site-portfolio.html"><span class="mega-num">12</span>Capstone Portfolio <small>3 sites, pruning gates</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col mega-feature">
+              <h3>Start here</h3>
+              <p>13 courses · 78 lessons · 78 artifacts. Every course uses one spine: 6 lessons, a lab each, a scenario assessment, a final project, a checklist and an AI-agent prompt.</p>
+              <a class="btn btn-sm" href="{{ROOT}}courses/index.html">View full curriculum</a>
+            </div>
+          </div>
+          <div class="mega-foot"><div class="mega-foot-inner">
+            <span>Rule 4 — launch 3 sites first; expand to 10 only after the gates pass.</span>
+            <a href="{{ROOT}}blueprint/index.html">See the 12-asset MVP →</a>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-link mega-btn" type="button" aria-expanded="false" aria-controls="mega-toolkit">
+          Toolkit <span class="chev" aria-hidden="true">▾</span>
+        </button>
+        <div class="mega-panel" id="mega-toolkit">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h3>Decide</h3>
+              <ul>
+                <li><a class="mega-link" href="{{ROOT}}tools/unit-economics.html">Unit economics &amp; payback <small>12-month cost model</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}tools/niche-scorer.html">Niche scorer <small>Displacement-adjusted</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}tools/zero-click-scorecard.html">Zero-click survival scorecard</a></li>
+                <li><a class="mega-link" href="{{ROOT}}tools/pruning-scorecard.html">Portfolio pruning scorecard</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Govern</h3>
+              <ul>
+                <li><a class="mega-link" href="{{ROOT}}tools/claim-register.html">Claim verification register <small>90-day expiry</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}tools/risk-register.html">Risk register <small>10 categories</small></a></li>
+                <li><a class="mega-link" href="{{ROOT}}tools/reviewer-register.html">Reviewer register</a></li>
+                <li><a class="mega-link" href="{{ROOT}}tools/legal-question-sheet.html">Legal counsel question sheet</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Measure &amp; build</h3>
+              <ul>
+                <li><a class="mega-link" href="{{ROOT}}tools/revenue-rpm-calculator.html">Revenue &amp; RPM calculator</a></li>
+                <li><a class="mega-link" href="{{ROOT}}tools/ai-surface-tracker.html">AI-surface tracking sheet</a></li>
+                <li><a class="mega-link" href="{{ROOT}}tools/content-brief-builder.html">Content brief builder</a></li>
+                <li><a class="mega-link" href="{{ROOT}}tools/checklists.html">Launch checklists</a></li>
+              </ul>
+            </div>
+            <div class="mega-col mega-feature">
+              <h3>Everything stays local</h3>
+              <p>Tools save to IndexedDB in your own browser. Nothing is uploaded. Export a JSON backup any time from your dashboard.</p>
+              <a class="btn btn-sm btn-outline" href="{{ROOT}}tools/index.html">All tools</a>
+            </div>
+          </div>
+          <div class="mega-foot"><div class="mega-foot-inner">
+            <span>Rule 1 — every platform or commercial claim expires after 90 days.</span>
+            <a href="{{ROOT}}resources/visual-assets.html">Image prompts &amp; screenshot SOPs →</a>
+          </div></div>
+        </div>
+      </div>
+
+      <a class="nav-link" href="{{ROOT}}blueprint/index.html">Blueprint</a>
+      <a class="nav-link" href="{{ROOT}}prompts/index.html">Prompts</a>
+      <a class="nav-link" href="{{ROOT}}dashboard.html">My progress</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch theme">☾</button>
+      <button id="nav-toggle" class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>

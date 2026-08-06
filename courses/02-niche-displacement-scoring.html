@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Course 2: Niche Research and Displacement-Adjusted Market Selection | RankLab Academy v2</title>
+<meta name="description" content="Score niches on advertiser value minus AI-answer vulnerability, compliance burden and reviewer cost. Build the displacement-adjusted niche score and justify launching only three sites first.">
+<link rel="canonical" href="02-niche-displacement-scoring.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Course 2 — Niche Research and Displacement-Adjusted Market Selection">
+<meta property="og:description" content="High CPM is not enough. Six lessons on scoring markets for durability, not just advertiser value.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/head.js"></script>
+<script src="../js/ads-config.js" defer></script>
+<script src="../js/megamenu.js" defer></script>
+<script src="../js/db.js" defer></script>
+<script src="../js/app.js" defer></script>
+<script src="../js/course.js" defer></script>
+<script src="../js/access.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "Course", "name": "Niche Research and Displacement-Adjusted Market Selection",
+      "description": "Scoring niches on advertiser value, commercial intent, tool and data potential, minus AI-answer vulnerability, compliance burden, reviewer cost and competition.",
+      "url": "https://ranklab-academy.pages.dev/courses/02-niche-displacement-scoring.html",
+      "provider": { "@type": "EducationalOrganization", "name": "RankLab Academy", "url": "https://ranklab-academy.pages.dev/" },
+      "isAccessibleForFree": true, "educationalLevel": "Beginner",
+      "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online", "courseWorkload": "PT5H" } },
+    { "@type": "BreadcrumbList", "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ranklab-academy.pages.dev/" },
+      { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://ranklab-academy.pages.dev/courses/" },
+      { "@type": "ListItem", "position": 3, "name": "Course 2" } ] }
+  ]
+}
+</script>
+</head>
+<body data-course="course-02" data-tier="paid" data-price="$19">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../index.html"><span class="brand-mark">RL</span> RankLab <span class="muted">Academy</span></a>
+    <nav id="main-nav" class="main-nav" aria-label="Main">
+
+      <div class="nav-item">
+        <button class="nav-link mega-btn" type="button" aria-expanded="false" aria-controls="mega-curriculum">Curriculum <span class="chev" aria-hidden="true">▾</span></button>
+        <div class="mega-panel" id="mega-curriculum">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h3>Foundations</h3>
+              <ul>
+                <li><a class="mega-link" href="00-decision-economics.html"><span class="mega-num">0</span>Decision Economics <small>Free · cost model, kill criteria</small></a></li>
+                <li><a class="mega-link" href="01-search-foundations-ai-era.html"><span class="mega-num">1</span>Search in the AI Era <small>Free · zero-click survival</small></a></li>
+                <li><a class="mega-link" href="02-niche-displacement-scoring.html"><span class="mega-num">2</span>Niche Selection <small>$19 · displacement scoring</small></a></li>
+                <li><a class="mega-link" href="03-owned-audience-newsletter.html"><span class="mega-num">3</span>Owned Audience <small>$29 · newsletter as product</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Build &amp; optimise</h3>
+              <ul>
+                <li><a class="mega-link" href="04-architecture-cloudflare-legal.html"><span class="mega-num">4</span>Architecture &amp; Legal <small>$39 · Cloudflare, launch gate</small></a></li>
+                <li><a class="mega-link" href="05-technical-seo-performance-ops.html"><span class="mega-num">5</span>Technical SEO &amp; Ops <small>$49 · Core Web Vitals, schema</small></a></li>
+                <li><a class="mega-link" href="06-answer-engine-visibility.html"><span class="mega-num">6</span>Answer-Engine Visibility <small>$59 · citations, brand demand</small></a></li>
+                <li><a class="mega-link" href="07-content-eeat-editorial-economics.html"><span class="mega-num">7</span>Content &amp; E-E-A-T <small>$69 · cost per asset</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Grow &amp; monetise</h3>
+              <ul>
+                <li><a class="mega-link" href="08-onpage-cro-tool-ux.html"><span class="mega-num">8</span>On-Page &amp; Tool UX <small>$79 · money pages, CRO</small></a></li>
+                <li><a class="mega-link" href="09-apis-analytics-ai-surface.html"><span class="mega-num">9</span>APIs &amp; Analytics <small>$99 · AI-surface measurement</small></a></li>
+                <li><a class="mega-link" href="10-links-partnerships-digital-pr.html"><span class="mega-num">10</span>Links &amp; Digital PR <small>$119 · original data campaigns</small></a></li>
+                <li><a class="mega-link" href="11-monetization-compliance-resilience.html"><span class="mega-num">11</span>Monetization <small>$149 · concentration limits</small></a></li>
+                <li><a class="mega-link" href="12-capstone-3-site-portfolio.html"><span class="mega-num">12</span>Capstone Portfolio <small>$199 · pruning gates</small></a></li>
+              </ul>
+            </div>
+            <div class="mega-col mega-feature">
+              <h3>Start here</h3>
+              <p>13 courses · 78 lessons · 78 artifacts. Every course uses one spine: 6 lessons, a lab each, a scenario assessment, a final project, a checklist and an AI-agent prompt.</p>
+              <a class="btn btn-sm" href="index.html">View full curriculum</a>
+            </div>
+          </div>
+          <div class="mega-foot"><div class="mega-foot-inner">
+            <span>Rule 4 — launch 3 sites first; expand to 10 only after the gates pass.</span>
+            <a href="../blueprint/index.html">See the 12-asset MVP →</a>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-link mega-btn" type="button" aria-expanded="false" aria-controls="mega-toolkit">Toolkit <span class="chev" aria-hidden="true">▾</span></button>
+        <div class="mega-panel" id="mega-toolkit">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h3>Decide</h3>
+              <ul>
+                <li><a class="mega-link" href="../tools/unit-economics.html">Unit economics &amp; payback <small>12-month cost model</small></a></li>
+                <li><a class="mega-link" href="../tools/niche-scorer.html">Niche scorer <small>Displacement-adjusted</small></a></li>
+                <li><a class="mega-link" href="../tools/zero-click-scorecard.html">Zero-click survival scorecard</a></li>
+                <li><a class="mega-link" href="../tools/pruning-scorecard.html">Portfolio pruning scorecard</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Govern</h3>
+              <ul>
+                <li><a class="mega-link" href="../tools/claim-register.html">Claim verification register <small>90-day expiry</small></a></li>
+                <li><a class="mega-link" href="../tools/risk-register.html">Risk register <small>10 categories</small></a></li>
+                <li><a class="mega-link" href="../tools/reviewer-register.html">Reviewer register</a></li>
+                <li><a class="mega-link" href="../tools/legal-question-sheet.html">Legal counsel question sheet</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3>Measure &amp; build</h3>
+              <ul>
+                <li><a class="mega-link" href="../tools/revenue-rpm-calculator.html">Revenue &amp; RPM calculator</a></li>
+                <li><a class="mega-link" href="../tools/ai-surface-tracker.html">AI-surface tracking sheet</a></li>
+                <li><a class="mega-link" href="../tools/content-brief-builder.html">Content brief builder</a></li>
+                <li><a class="mega-link" href="../tools/checklists.html">Launch checklists</a></li>
+              </ul>
+            </div>
+            <div class="mega-col mega-feature">
+              <h3>Everything stays local</h3>
+              <p>Tools save to IndexedDB in your own browser. Nothing is uploaded. Export a JSON backup any time from your dashboard.</p>
+              <a class="btn btn-sm btn-outline" href="../tools/index.html">All tools</a>
+            </div>
+          </div>
+          <div class="mega-foot"><div class="mega-foot-inner">
+            <span>Rule 1 — every platform or commercial claim expires after 90 days.</span>
+            <a href="../resources/visual-assets.html">Image prompts &amp; screenshot SOPs →</a>
+          </div></div>
+        </div>
+      </div>
+
+      <a class="nav-link" href="../blueprint/index.html">Blueprint</a>
+      <a class="nav-link" href="../pricing.html">Pricing</a>
+      <a class="nav-link" href="../dashboard.html">My progress</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch theme">☾</button>
+      <button id="nav-toggle" class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<div class="page-head">
+  <div class="wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol><li><a href="../index.html">Home</a></li><li><a href="index.html">Courses</a></li><li>Course 2</li></ol>
+    </nav>
+    <p class="mb-1"><span class="badge">Course 2 · Beginner</span> <span class="badge badge-warn">$19</span> <span class="badge badge-accent">Rewritten in v2</span></p>
+    <h1>Niche Research and Displacement-Adjusted Market Selection</h1>
+    <p class="lead">A niche can pay well and still be a bad business, because most of its content is a paragraph an assistant will happily write for free. This course scores markets on what survives.</p>
+    <ul class="pill-row"><li>6 lessons</li><li>6 labs</li><li>6 artifacts</li><li>1 scenario assessment</li><li>≈5 hours</li></ul>
+    <div class="progress-label"><span>Your progress · <b data-course-done>0</b>/<b data-course-total>6</b> lessons</span><span data-course-pct>0%</span></div>
+    <div class="progress" data-course-bar><i></i></div>
+    <div class="mt-2" data-access-banner></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <aside class="ad-slot ad-leaderboard" data-ad="header" data-ad-format="horizontal" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+</div>
+
+<div class="wrap doc-layout">
+  <aside class="doc-aside" aria-label="Course contents">
+    <nav class="toc">
+      <h2>On this page</h2>
+      <ol>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#lesson-1">2.1 High CPM + displacement risk</a></li>
+        <li><a href="#lesson-2">2.2 Audience value</a></li>
+        <li><a href="#lesson-3">2.3 Displacement-adjusted score</a></li>
+        <li><a href="#lesson-4">2.4 Competitor &amp; AI-surface research</a></li>
+        <li><a href="#lesson-5">2.5 Compliance pre-screening</a></li>
+        <li><a href="#lesson-6">2.6 Why launch 3 sites first</a></li>
+        <li><a href="#scenario">Scenario assessment</a></li>
+        <li><a href="#project">Final project</a></li>
+        <li><a href="#checklist">Course checklist</a></li>
+        <li><a href="#prompt">AI-agent prompt</a></li>
+        <li><a href="#sources">Sources</a></li>
+      </ol>
+    </nav>
+    <div class="callout callout-tip mt-2"><strong class="callout-title">Governing question</strong><p class="mb-0 text-sm">If Google disappeared tomorrow, why would anyone still come back to this brand?</p></div>
+  </aside>
+
+  <article>
+    <section id="overview" class="lesson">
+      <h2 class="mt-0">Overview</h2>
+      <p>v1 selected niches on CPC and volume. v2 subtracts the things that destroy value: answers a machine gives away, compliance you cannot afford, reviewers you cannot recruit, and competitors with a decade of trust. The output is a ranked list of ten niches and a defensible reason that only three launch now.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Lesson</th><th>Lab</th><th>Artifact</th></tr></thead>
+        <tbody>
+          <tr><td>2.1 CPM vs displacement</td><td>Classify 20 topics on both axes</td><td>CPM/displacement matrix</td></tr>
+          <tr><td>2.2 Audience value</td><td>Profile the buyer on 8 dimensions</td><td>Audience value profile</td></tr>
+          <tr><td>2.3 Scoring formula</td><td>Score all 10 niches</td><td>Displacement-adjusted score</td></tr>
+          <tr><td>2.4 Competitor/AI research</td><td>Audit 10 surfaces per niche</td><td>AI-surface competitor audit</td></tr>
+          <tr><td>2.5 Compliance pre-screen</td><td>Nine-question screen per niche</td><td>Compliance pre-screen</td></tr>
+          <tr><td>2.6 Phase 1 selection</td><td>Justify the three</td><td>Launch order memo</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section id="lesson-1" class="lesson">
+      <h2><span class="lesson-num">2.1</span> What is high-CPM plus displacement risk?</h2>
+      <h3>What is it?</h3>
+      <p>Two independent properties of a topic: how much advertisers pay for the audience, and how completely a generated answer can satisfy the query without a visit.</p>
+      <h3>Why it matters</h3>
+      <p>The most valuable-looking keywords are often the most displaced, because advertisers bid on early-funnel definitions that are exactly what summaries are good at. Value is realised only where a click is still needed.</p>
+      <h3>How to do it</h3>
+      <ol>
+        <li>List 20 real topics from one niche, mixing definitions, comparisons, tools and current-data queries.</li>
+        <li>Estimate advertiser value from keyword tools and, better, from who is buying ads on the live results.</li>
+        <li>Estimate AI vulnerability: ask two assistants and judge whether their answer would end the user's task.</li>
+        <li>Plot on a 2×2 and keep only the high-value/low-vulnerability quadrant as launch candidates.</li>
+      </ol>
+      <div class="table-wrap"><table>
+        <caption class="sr-only">Worked examples of CPM potential versus AI vulnerability</caption>
+        <thead><tr><th>Topic</th><th>CPM potential</th><th>AI vulnerability</th></tr></thead>
+        <tbody>
+          <tr><td>"What is general liability insurance?"</td><td>High</td><td>High</td></tr>
+          <tr><td>"Business insurance quote comparison tool"</td><td>High</td><td>Lower</td></tr>
+          <tr><td>"Solar rebate tracker by state"</td><td>Medium/high</td><td>Lower</td></tr>
+          <tr><td>"HSA vs FSA definition"</td><td>High</td><td>High</td></tr>
+          <tr><td>"HSA calculator with updated limits"</td><td>High</td><td>Lower</td></tr>
+        </tbody>
+      </table></div>
+      <h3>Tools needed</h3>
+      <p>Keyword tool of your choice, live results pages, two AI assistants, spreadsheet.</p>
+      <h3>Lab 2.1</h3>
+      <p>Build the matrix for 20 topics in one Phase 1 niche. Highlight the five you would fund and the five you would never write.</p>
+      <h3>Artifact</h3>
+      <pre><code>CPM vs displacement matrix (20 topics, 2x2 quadrants, funded/rejected)</code></pre>
+      <h3>Common mistakes</h3>
+      <ul><li>Using CPC as a proxy for your own future RPM without any traffic-mix assumption.</li><li>Judging vulnerability from one assistant on one day.</li><li>Discarding a niche instead of discarding its displaced sub-topics.</li></ul>
+      <h3>Pro astuces</h3>
+      <ul><li>Advertisers bidding on a query proves commercial value even where organic clicks are collapsing — that is a signal to build the tool, not the explainer.</li><li>Keep a "displaced but valuable" list; those topics are lead magnets waiting to happen.</li></ul>
+      <div class="notes-box"><label class="text-sm" for="note-l1"><strong>Your notes</strong></label><textarea id="note-l1" data-note="lesson-1" placeholder="Your five funded topics…"></textarea><span class="notes-status">Not saved yet</span></div>
+      <div class="lesson-foot"><label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 2.1 complete</label><span class="text-sm muted">Artifact: CPM/displacement matrix</span></div>
+    </section>
+
+    <section id="lesson-2" class="lesson">
+      <h2><span class="lesson-num">2.2</span> What is audience value?</h2>
+      <h3>What is it?</h3>
+      <p>The economic and behavioural quality of the people behind the queries, independent of keyword metrics.</p>
+      <h3>Why it matters</h3>
+      <p>Two niches with identical CPC can differ tenfold in newsletter conversion and lifetime value. Audience value predicts owned-audience growth, which v2 treats as the real asset.</p>
+      <h3>How to do it</h3>
+      <ol>
+        <li>Score the eight dimensions below from 1 to 5 using evidence, not vibes.</li>
+        <li>Evidence sources: existing communities, paid products in the space, job titles, active newsletters, forum activity.</li>
+        <li>Interview three people in the audience and record verbatim quotes about their recurring problems.</li>
+        <li>Reject niches scoring low on "likelihood to subscribe" and "recurring need" even if CPM is high.</li>
+      </ol>
+      <pre><code>Audience value dimensions
+Budget            Advertiser value
+Urgency           Trust requirement
+Recurring need    Likelihood to subscribe
+Decision complexity   Likelihood to return</code></pre>
+      <h3>Tools needed</h3>
+      <p>Community platforms, competitor newsletters (subscribe to five), three interviews, spreadsheet.</p>
+      <h3>Lab 2.2</h3>
+      <p>Profile the buyer for each of the three Phase 1 niches. Note that all three share a buyer — the small-business operator — and write one sentence on how that reduces your research and newsletter costs.</p>
+      <h3>Artifact</h3>
+      <pre><code>Audience value profile per niche, with three verbatim quotes each</code></pre>
+      <h3>Common mistakes</h3>
+      <ul><li>Describing a demographic instead of a job and a budget.</li><li>Choosing an audience you cannot reach or credibly speak to.</li><li>Ignoring trust requirement, which drives reviewer cost later.</li></ul>
+      <h3>Pro astuces</h3>
+      <ul><li>Subscribe to competitor newsletters for a month; their recurring segments reveal proven return triggers.</li><li>If a paid product already exists for the audience, budget exists. That is stronger evidence than search volume.</li></ul>
+      <div class="quiz" data-quiz="lesson-2">
+        <h4>Knowledge check (3 questions)</h4>
+        <details><summary>1. Why can two niches with equal CPC have very different value?</summary><p class="answer">Because subscription likelihood, recurring need and trust requirements differ, changing owned-audience growth and reviewer cost.</p></details>
+        <details><summary>2. What evidence beats search volume?</summary><p class="answer">An existing paid product or a healthy paid newsletter in the space — proof that this audience spends money on information.</p></details>
+        <details><summary>3. Why do the three Phase 1 sites share a buyer?</summary><p class="answer">Shared research, shared newsletter learning, shared sponsors and lower licensing exposure than mortgage, insurance or health.</p></details>
+        <div class="self-score"><span>Self-score:</span>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="1">1</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="2">2</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="3">3</button>
+          <strong data-quiz-out>Not scored yet</strong></div>
+      </div>
+      <div class="notes-box"><label class="text-sm" for="note-l2"><strong>Your notes</strong></label><textarea id="note-l2" data-note="lesson-2" placeholder="Best verbatim quote you collected…"></textarea><span class="notes-status">Not saved yet</span></div>
+      <div class="lesson-foot"><label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 2.2 complete</label><span class="text-sm muted">Artifact: Audience value profile</span></div>
+    </section>
+
+    <aside class="ad-slot ad-inarticle" data-ad="inarticle" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+
+    <section id="lesson-3" class="lesson">
+      <h2><span class="lesson-num">2.3</span> What is a displacement-adjusted niche score?</h2>
+      <h3>What is it?</h3>
+      <p>One number that adds durable upside and subtracts structural cost and risk.</p>
+      <pre><code>Niche Score =
+    Advertiser Value
+  + Commercial Intent
+  + Recurring Need
+  + Tool Potential
+  + Original Data Potential
+  + Newsletter Potential
+  + Partnership Potential
+  - AI Answer Vulnerability
+  - Compliance Burden
+  - Reviewer Cost
+  - Competition Strength</code></pre>
+      <h3>Why it matters</h3>
+      <p>It forces the trade-off into the open. Health benefits scores high on advertiser value and catastrophically on reviewer cost and compliance; SMB cybersecurity scores lower on CPM but high on tool potential and partnerships.</p>
+      <h3>How to do it</h3>
+      <ol>
+        <li>Score each factor 1–10 with a written justification — a score without a sentence is noise.</li>
+        <li>Weight the subtractions at least as heavily as the additions.</li>
+        <li>Score all ten niches in one sitting so the scale stays consistent.</li>
+        <li>Sanity-check: would you personally fund the top three with your own money?</li>
+      </ol>
+      <h3>Tools needed</h3>
+      <p><a href="../tools/niche-scorer.html">Displacement-adjusted niche scorer</a>, your matrix from 2.1 and profiles from 2.2.</p>
+      <h3>Lab 2.3</h3>
+      <p>Score all ten academy niches. Publish the justification column. Then re-score the bottom niche as if you had unlimited reviewer budget and note how much of the score is really a resource constraint.</p>
+      <h3>Artifact</h3>
+      <pre><code>Displacement-adjusted scorecard for 10 niches with written justifications</code></pre>
+      <h3>Common mistakes</h3>
+      <ul><li>Scoring in isolation over several days, producing an inconsistent scale.</li><li>Under-weighting reviewer cost, the most common cause of stalled YMYL sites.</li><li>Scoring competition by domain metrics rather than by content quality and originality.</li></ul>
+      <h3>Pro astuces</h3>
+      <ul><li>Tool potential and original data potential are the two factors most predictive of survival. Break ties with them.</li><li>Record the score date. Re-score annually; markets and displacement both move.</li></ul>
+      <div class="notes-box"><label class="text-sm" for="note-l3"><strong>Your notes</strong></label><textarea id="note-l3" data-note="lesson-3" placeholder="Top three and the deciding factor…"></textarea><span class="notes-status">Not saved yet</span></div>
+      <div class="lesson-foot"><label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 2.3 complete</label><span class="text-sm muted">Artifact: Niche scorecard</span></div>
+    </section>
+
+    <section id="lesson-4" class="lesson">
+      <h2><span class="lesson-num">2.4</span> What is competitor and AI-surface research?</h2>
+      <h3>What is it?</h3>
+      <p>Mapping who currently owns attention across every surface, including the assistants that never show a results page.</p>
+      <h3>Why it matters</h3>
+      <p>Your real competitors may be a forum, a vendor's documentation and a newsletter — not the sites in the top ten. And the brands assistants cite repeatedly are the ones you must out-originate.</p>
+      <h3>How to do it</h3>
+      <ol>
+        <li>For ten priority queries, record: organic top five, AI summary sources, forum threads, videos, newsletters, competitor tools, comparison pages, data assets, communities.</li>
+        <li>Note which competitors own a named tool or dataset — those are the durable positions.</li>
+        <li>Record which brands get cited by assistants, and what format their cited page uses.</li>
+        <li>Identify one gap you can own with original data within 90 days.</li>
+      </ol>
+      <pre><code>AI-surface competitor audit
+Query | Platform | Brands cited | Format cited | Their tool/data asset |
+Gap we can own | Evidence needed | Date</code></pre>
+      <h3>Tools needed</h3>
+      <p>Two assistants, browser, competitor newsletters, and the <a href="../tools/ai-surface-tracker.html">AI-surface tracking sheet</a>.</p>
+      <h3>Lab 2.4</h3>
+      <p>Audit ten queries in one niche and identify the single dataset nobody maintains. That dataset is a candidate for one of your two data assets.</p>
+      <h3>Artifact</h3>
+      <pre><code>AI-surface competitor audit with one 90-day data opportunity</code></pre>
+      <h3>Common mistakes</h3>
+      <ul><li>Benchmarking only against publishers, ignoring vendors and communities.</li><li>Copying a competitor's tool rather than finding the adjacent one nobody built.</li><li>Not dating the audit; citations change and undated notes mislead.</li></ul>
+      <h3>Pro astuces</h3>
+      <ul><li>If assistants cite the same three brands everywhere, look for the sub-topic where they cite nobody.</li><li>Vendor documentation is often the citation winner — beat it with independence and comparison, not with a rewrite.</li></ul>
+      <div class="notes-box"><label class="text-sm" for="note-l4"><strong>Your notes</strong></label><textarea id="note-l4" data-note="lesson-4" placeholder="The dataset nobody maintains…"></textarea><span class="notes-status">Not saved yet</span></div>
+      <div class="lesson-foot"><label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 2.4 complete</label><span class="text-sm muted">Artifact: AI-surface competitor audit</span></div>
+    </section>
+
+    <section id="lesson-5" class="lesson">
+      <h2><span class="lesson-num">2.5</span> What is compliance pre-screening?</h2>
+      <h3>What is it?</h3>
+      <p>Nine questions asked before you commit, so legal exposure is a choice rather than a surprise.</p>
+      <pre><code>Compliance pre-screen
+Does this involve insurance leads?    Legal advice?
+Mortgage leads?                       Tax advice?
+Loan brokering?                       SMS/phone consent?
+Health advice?                        EU/UK personal data?
+                                      Affiliate disclosures?</code></pre>
+      <h3>Why it matters</h3>
+      <p>Lead generation in regulated verticals can require licensing; consent rules govern phone and SMS follow-up; EU/UK data brings its own obligations. Discovering this after building a lead funnel wastes the funnel.</p>
+      <h3>How to do it</h3>
+      <ol>
+        <li>Answer all nine questions per niche with yes/no/unsure.</li>
+        <li>For every yes, write the specific question you will take to counsel (Course 4 builds the sheet).</li>
+        <li>Decide whether the niche can launch with advertising and affiliate revenue only, deferring lead-gen.</li>
+        <li>Record the decision and a review date in the risk register.</li>
+      </ol>
+      <div class="callout callout-warn"><strong class="callout-title">Not legal advice</strong><p class="mb-0">This is a checklist for structuring questions to a qualified lawyer in your jurisdiction. It is not a substitute for counsel.</p></div>
+      <h3>Tools needed</h3>
+      <p><a href="../tools/legal-question-sheet.html">Legal counsel question sheet</a>, risk register, FTC endorsement guidance for disclosure obligations.</p>
+      <h3>Lab 2.5</h3>
+      <p>Pre-screen all ten niches. Produce a table showing which can launch immediately, which need counsel first, and which need counsel only before lead-gen.</p>
+      <h3>Artifact</h3>
+      <pre><code>Compliance pre-screen for 10 niches with launch conditions</code></pre>
+      <h3>Common mistakes</h3>
+      <ul><li>Assuming an affiliate model avoids all regulatory questions — disclosure obligations still apply.</li><li>Copying a competitor's disclaimers; you do not know whether theirs are compliant.</li><li>Answering "unsure" and moving on without logging the question.</li></ul>
+      <h3>Pro astuces</h3>
+      <ul><li>Sequence revenue: display and affiliate first, lead-gen after counsel. It de-risks launch without delaying it.</li><li>Bundle all your counsel questions into one paid hour rather than drip-feeding.</li></ul>
+      <div class="notes-box"><label class="text-sm" for="note-l5"><strong>Your notes</strong></label><textarea id="note-l5" data-note="lesson-5" placeholder="Niches that need counsel first…"></textarea><span class="notes-status">Not saved yet</span></div>
+      <div class="lesson-foot"><label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 2.5 complete</label><span class="text-sm muted">Artifact: Compliance pre-screen</span></div>
+    </section>
+
+    <section id="lesson-6" class="lesson">
+      <h2><span class="lesson-num">2.6</span> Why launch 3 sites first?</h2>
+      <h3>What is it?</h3>
+      <p>A deliberate constraint: Phase 1 is SMB Finance and Banking, B2B SaaS and AI Tools, and SMB Cybersecurity. The remaining seven niches are expansion exercises unlocked by the month 9 gate.</p>
+      <h3>Why it matters</h3>
+      <p>Ten simultaneous sites means ten newsletters, ten reviewer relationships and ten refresh backlogs, funded by one person's attention. Three sites with a shared buyer share research, sponsors, tooling and SOPs — and can each reach a real MVP.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Reason</th><th>Effect</th></tr></thead>
+        <tbody>
+          <tr><td>Same buyer: the small-business operator</td><td>Research, interviews and sponsors transfer between sites</td></tr>
+          <tr><td>Less licensing exposure than mortgage/insurance/health</td><td>Faster launch, lower counsel cost</td></tr>
+          <tr><td>Strong affiliate and SaaS ecosystem</td><td>Multiple revenue partners, easier concentration limits</td></tr>
+          <tr><td>Easier newsletter cross-learning</td><td>One editorial engine, three briefs</td></tr>
+          <tr><td>Cybersecurity adds high-value B2B intent</td><td>Sponsor and partnership upside</td></tr>
+        </tbody>
+      </table></div>
+      <h3>How to do it</h3>
+      <ol>
+        <li>Confirm the three against your own scorecard — if your scores disagree, document why before overriding.</li>
+        <li>Write the launch order and the staggered start dates (do not start three sites in the same week).</li>
+        <li>Define shared infrastructure: one analytics account structure, one component library, one SOP set.</li>
+        <li>Write the expansion trigger: which gate result unlocks site four.</li>
+      </ol>
+      <h3>Tools needed</h3>
+      <p>Your scorecard, the Course 0 budget model, and a calendar.</p>
+      <h3>Lab 2.6</h3>
+      <p>Write a one-page launch order memo: three sites, stagger dates, shared infrastructure, and the numeric condition that unlocks Phase 2.</p>
+      <h3>Artifact</h3>
+      <pre><code>Phase 1/Phase 2 launch order memo</code></pre>
+      <h3>Common mistakes</h3>
+      <ul><li>Launching all three the same week and starving each of attention.</li><li>Treating Phase 2 as a promise rather than a conditional option.</li><li>Choosing three niches with different buyers, losing every shared advantage.</li></ul>
+      <h3>Pro astuces</h3>
+      <ul><li>Stagger by six to eight weeks; site two benefits from every mistake site one made.</li><li>Build the shared component library during site one — it is your compounding asset.</li></ul>
+      <div class="notes-box"><label class="text-sm" for="note-l6"><strong>Your notes</strong></label><textarea id="note-l6" data-note="lesson-6" placeholder="Your stagger dates and expansion trigger…"></textarea><span class="notes-status">Not saved yet</span></div>
+      <div class="lesson-foot"><label class="complete-toggle"><input type="checkbox" data-lesson-complete> Mark lesson 2.6 complete</label><span class="text-sm muted">Artifact: Launch order memo</span></div>
+    </section>
+
+    <aside class="ad-slot ad-inarticle" data-ad="inarticle2" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+
+    <section id="scenario" class="lesson">
+      <h2>Scenario assessment: the seductive high-CPM niche</h2>
+      <blockquote><p class="mb-0">A student's scorecard puts Health Benefits and HSA first on advertiser value and commercial intent. It also scores 9/10 on AI answer vulnerability (most queries are definitional), 8/10 on compliance burden and 9/10 on reviewer cost. They have no medical or benefits reviewer, and a 12-month budget that assumes 30 pages.</p></blockquote>
+      <div class="quiz" data-quiz="scenario">
+        <h4>Decide first, then open (5 questions)</h4>
+        <details><summary>1. Does the high advertiser value justify launching?</summary><p class="answer">No. The subtractions exceed the additions: displaced content plus unaffordable review means most pages could not be published at the required standard.</p></details>
+        <details><summary>2. What subset of the niche would survive?</summary><p class="answer">Tools and current-data assets — an HSA contribution calculator, an open-enrolment calendar, a benefits cost benchmark — all of which still need reviewer sign-off on the rules.</p></details>
+        <details><summary>3. What must be true before it can launch?</summary><p class="answer">A contracted, credential-verified reviewer with agreed turnaround and rate, counsel input on disclaimers, and a budget that funds review at 2–4× standard page cost.</p></details>
+        <details><summary>4. What is the intermediate move?</summary><p class="answer">Serve the same buyer from a lower-burden angle first: benefits administration software comparisons on the B2B SaaS site, which builds audience and reviewer relationships.</p></details>
+        <details><summary>5. What gets written in the risk register?</summary><p class="answer">Reviewer/key-person risk with the leading indicator "reviewer capacity below 4 pages/month" and the trigger "pause new YMYL commissioning".</p></details>
+        <div class="self-score"><span>Self-score:</span>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="1">1</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="2">2</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="3">3</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="4">4</button>
+          <button class="btn btn-sm btn-ghost" type="button" data-quiz-score="5">5</button>
+          <strong data-quiz-out>Not scored yet</strong></div>
+      </div>
+    </section>
+
+    <section id="project" class="lesson">
+      <h2>Final project: the ten-niche displacement scorecard</h2>
+      <p>Create a displacement-adjusted scorecard for all ten niches and justify why only three launch first.</p>
+      <pre><code>Deliverable
+1. Scores for all 11 factors across 10 niches, with justifications
+2. CPM vs displacement matrix for the top 3
+3. Audience value profile for the top 3 (shared buyer analysis)
+4. Compliance pre-screen with launch conditions for all 10
+5. Launch order memo with stagger dates and the Phase 2 trigger</code></pre>
+      <p><strong>Pass standard:</strong> a reader who disagrees with your top three can see exactly which factor would have to change their mind.</p>
+    </section>
+
+    <section id="checklist" class="lesson">
+      <h2>Course 2 checklist</h2>
+      <ul class="checklist" data-checklist="course-02-final">
+        <li><input type="checkbox" id="c2-1" data-key="c2-1"><label for="c2-1">20 topics classified on CPM and AI vulnerability</label></li>
+        <li><input type="checkbox" id="c2-2" data-key="c2-2"><label for="c2-2">Three real audience interviews completed with verbatim quotes</label></li>
+        <li><input type="checkbox" id="c2-3" data-key="c2-3"><label for="c2-3">All ten niches scored in one sitting with written justifications</label></li>
+        <li><input type="checkbox" id="c2-4" data-key="c2-4"><label for="c2-4">Subtraction factors weighted at least as heavily as additions</label></li>
+        <li><input type="checkbox" id="c2-5" data-key="c2-5"><label for="c2-5">AI-surface audit dated and covering ten queries</label></li>
+        <li><input type="checkbox" id="c2-6" data-key="c2-6"><label for="c2-6">One unmaintained dataset identified as a data-asset candidate</label></li>
+        <li><input type="checkbox" id="c2-7" data-key="c2-7"><label for="c2-7">Nine-question compliance pre-screen completed per niche</label></li>
+        <li><input type="checkbox" id="c2-8" data-key="c2-8"><label for="c2-8">Counsel questions logged for every "yes" answer</label></li>
+        <li><input type="checkbox" id="c2-9" data-key="c2-9"><label for="c2-9">Phase 1 confirmed with stagger dates</label></li>
+        <li><input type="checkbox" id="c2-10" data-key="c2-10"><label for="c2-10">Numeric Phase 2 expansion trigger written down</label></li>
+      </ul>
+      <div class="flex between"><span class="text-sm"><b data-checklist-count>0</b> complete</span><button class="btn btn-sm btn-outline" type="button" data-checklist-reset>Reset</button></div>
+      <div class="progress mt-2" data-checklist-bar><i></i></div>
+    </section>
+
+    <section id="prompt" class="lesson">
+      <h2>AI-agent prompt for Course 2</h2>
+      <div class="prompt-block">
+        <div class="prompt-head"><strong>Displacement-adjusted market analyst</strong><button class="btn btn-sm btn-ghost" type="button" data-copy="#p-c2">Copy</button></div>
+        <pre id="p-c2"><code>Act as a market analyst for an independent publisher operating in an AI-mediated search environment.
+
+I will paste: a list of candidate niches and my constraints (capital, hours, reviewer access, jurisdiction).
+
+Do this:
+1. For each niche, score 1-10 with a one-sentence justification: advertiser value, commercial intent, recurring need, tool potential, original data potential, newsletter potential, partnership potential.
+2. Then score and SUBTRACT: AI answer vulnerability, compliance burden, reviewer cost, competition strength.
+3. Output the ranked table with the net score and the deciding factor for each rank.
+4. For the top three, produce a CPM vs AI-vulnerability matrix of 20 topics each, marking which topics to fund and which to never write.
+5. Run the nine-question compliance pre-screen per niche and list the exact questions to take to counsel for every "yes".
+6. Recommend a Phase 1 of three niches that share one buyer, with stagger dates and a numeric trigger for Phase 2.
+
+Rules:
+- Do not state CPC, RPM, licensing requirements or platform terms as facts. Output them as claim rows needing a primary source, with an owner and a 90-day expiry.
+- Prefer tool and original-data opportunities over explainer topics.
+- Flag any niche where launch should be advertising/affiliate only until counsel review.
+Output as tables.</code></pre>
+      </div>
+    </section>
+
+    <section id="sources" class="lesson">
+      <h2>Primary sources</h2>
+      <ul>
+        <li><a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" rel="noopener">Creating helpful, reliable, people-first content</a></li>
+        <li><a href="https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews" rel="noopener">FTC endorsement, influencer and review guidance</a></li>
+      </ul>
+      <div class="btn-row mt-2">
+        <a class="btn" href="03-owned-audience-newsletter.html">Next: Course 3 — Owned audience &amp; newsletter product →</a>
+        <a class="btn btn-outline" href="01-search-foundations-ai-era.html">← Course 1</a>
+      </div>
+    </section>
+  </article>
+
+  <aside class="doc-aside doc-aside-right" aria-label="Sidebar">
+    <div class="ad-slot ad-sidebar" data-ad="sidebar" aria-label="Advertisement"><div class="ad-inner"></div></div>
+    <div class="card mt-2"><h3 class="mt-0 text-sm">Artifacts</h3><ol class="text-sm mb-0">
+      <li>CPM/displacement matrix</li><li>Audience value profile</li><li>Displacement-adjusted score</li><li>AI-surface competitor audit</li><li>Compliance pre-screen</li><li>Launch order memo</li>
+    </ol></div>
+  </aside>
+</div>
+
+<div class="wrap">
+  <aside class="ad-slot ad-footer" data-ad="footer" data-ad-format="horizontal" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="../index.html"><span class="brand-mark">RL</span> RankLab Academy</a>
+        <p class="text-sm muted mt-2">Durable owned-audience assets for the AI/zero-click era. Educational content — not financial, legal, medical or insurance advice.</p>
+      </div>
+      <div><h3>Learn</h3><ul>
+        <li><a href="index.html">All courses</a></li><li><a href="../tools/index.html">Tools</a></li><li><a href="../prompts/index.html">Prompts</a></li><li><a href="../blueprint/index.html">Blueprint</a></li><li><a href="../dashboard.html">My progress</a></li>
+      </ul></div>
+      <div><h3>Trust</h3><ul>
+        <li><a href="../about.html">About &amp; ownership</a></li><li><a href="../authors.html">Authors</a></li><li><a href="../editorial-policy.html">Editorial policy</a></li><li><a href="../review-methodology.html">Review methodology</a></li><li><a href="../corrections.html">Corrections</a></li>
+      </ul></div>
+      <div><h3>Legal</h3><ul>
+        <li><a href="../advertiser-disclosure.html">Advertiser disclosure</a></li><li><a href="../privacy-policy.html">Privacy policy</a></li><li><a href="../terms.html">Terms</a></li><li><a href="../contact.html">Contact</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> RankLab Academy · v2.0 curriculum</span>
+      <span>Progress stored locally with IndexedDB.</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

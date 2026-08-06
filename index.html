@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RankLab Academy: Build, Rank &amp; Monetise High-CPM Websites (Free 12-Course Series)</title>
+<meta name="description" content="A free, ad-supported 12-course academy that teaches beginners how to build real high-CPM websites: SEO foundations, Cloudflare setup, technical SEO, E-E-A-T content, link building, analytics, retention and AdSense/affiliate monetisation. Progress saves in your browser with IndexedDB.">
+<link rel="canonical" href="index.html">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta property="og:type" content="website">
+<meta property="og:title" content="RankLab Academy — Build, Rank &amp; Monetise High-CPM Websites">
+<meta property="og:description" content="Twelve free courses, ten site blueprints, seven browser tools and a premium prompt library for publishers who want real traffic and real ad revenue.">
+<meta property="og:url" content="https://ranklab-academy.pages.dev/">
+<meta property="og:site_name" content="RankLab Academy">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/ads-config.js" defer></script>
+<script src="js/db.js" defer></script>
+<script src="js/app.js" defer></script>
+<script src="js/hub.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://ranklab-academy.pages.dev/#org",
+      "name": "RankLab Academy",
+      "url": "https://ranklab-academy.pages.dev/",
+      "description": "Free, ad-supported publisher education: SEO, Cloudflare infrastructure, content quality, analytics and high-CPM monetisation.",
+      "sameAs": []
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ranklab-academy.pages.dev/#website",
+      "url": "https://ranklab-academy.pages.dev/",
+      "name": "RankLab Academy",
+      "publisher": { "@id": "https://ranklab-academy.pages.dev/#org" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ItemList",
+      "name": "SEO + High-Traffic + High-CPM Website Mastery — 12 course series",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": 12,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "SEO Foundations for Beginners", "url": "https://ranklab-academy.pages.dev/courses/seo-foundations.html" },
+        { "@type": "ListItem", "position": 2, "name": "Niche Research and High-CPM Market Selection", "url": "https://ranklab-academy.pages.dev/courses/niche-research-high-cpm.html" },
+        { "@type": "ListItem", "position": 3, "name": "Website Architecture and Cloudflare Setup", "url": "https://ranklab-academy.pages.dev/courses/website-architecture-cloudflare.html" },
+        { "@type": "ListItem", "position": 4, "name": "Technical SEO and Performance", "url": "https://ranklab-academy.pages.dev/courses/technical-seo-performance.html" },
+        { "@type": "ListItem", "position": 5, "name": "Content Strategy and E-E-A-T", "url": "https://ranklab-academy.pages.dev/courses/content-strategy-eeat.html" },
+        { "@type": "ListItem", "position": 6, "name": "On-Page SEO and Conversion Optimization", "url": "https://ranklab-academy.pages.dev/courses/on-page-seo-cro.html" },
+        { "@type": "ListItem", "position": 7, "name": "Cloudflare, APIs, and Automation for SEO", "url": "https://ranklab-academy.pages.dev/courses/cloudflare-apis-automation.html" },
+        { "@type": "ListItem", "position": 8, "name": "Link Building and Digital PR", "url": "https://ranklab-academy.pages.dev/courses/link-building-digital-pr.html" },
+        { "@type": "ListItem", "position": 9, "name": "Analytics, Dashboards, and SEO Optimization", "url": "https://ranklab-academy.pages.dev/courses/analytics-dashboards.html" },
+        { "@type": "ListItem", "position": 10, "name": "High Traffic and Returning Visitors", "url": "https://ranklab-academy.pages.dev/courses/traffic-returning-visitors.html" },
+        { "@type": "ListItem", "position": 11, "name": "Monetization and High CPM/RPM", "url": "https://ranklab-academy.pages.dev/courses/monetization-cpm-rpm.html" },
+        { "@type": "ListItem", "position": 12, "name": "Capstone: Build 10 Related High-CPM Websites", "url": "https://ranklab-academy.pages.dev/courses/capstone-10-websites.html" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is RankLab Academy free?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every course, tool, checklist and prompt is free to use. The academy is funded by display advertising and clearly disclosed affiliate relationships." }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is my course progress stored?",
+          "acceptedAnswer": { "@type": "Answer", "text": "In your own browser, using IndexedDB. There is no account and no server database. You can export a JSON backup or wipe everything from the dashboard at any time." }
+        },
+        {
+          "@type": "Question",
+          "name": "Will this teach me to build a private blog network?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. The curriculum explicitly rejects PBNs, link schemes, doorway pages, scaled low-quality content and fake expertise. It teaches a portfolio of independent brands with contextual cross-referrals only." }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does the full academy take?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Roughly 78 hours of study and lab work across 12 courses and 111 lessons, plus the capstone build of your first site." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">RL</span> RankLab <span class="muted">Academy</span></a>
+    <nav id="main-nav" class="main-nav" aria-label="Main">
+      <a href="courses/index.html">Courses</a>
+      <a href="tools/index.html">Tools</a>
+      <a href="prompts/index.html">Prompts</a>
+      <a href="blueprint/index.html">10-Site Blueprint</a>
+      <a href="resources/visual-assets.html">Visual assets</a>
+      <a href="dashboard.html">My progress</a>
+    </nav>
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch theme">☾</button>
+      <button id="nav-toggle" class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="pill-row" style="margin-bottom:.9rem">
+          <span class="badge">12 courses</span> <span class="badge badge-accent">111 lessons</span>
+          <span class="badge badge-warn">10 site blueprints</span> <span class="badge badge-mute">100% free</span>
+        </p>
+        <h1>Build websites that deserve to rank — then monetise them properly</h1>
+        <p class="lead">RankLab Academy is a complete beginner-to-master curriculum for people who want real organic traffic, returning visitors and high-CPM ad revenue. Twelve courses, seven browser tools, a premium prompt library and ten full site blueprints. No fluff, no link schemes, no fake expertise.</p>
+        <div class="btn-row">
+          <a class="btn" href="courses/seo-foundations.html">Start Course 1 free</a>
+          <a class="btn btn-outline" href="courses/index.html">See the full curriculum</a>
+        </div>
+        <p class="text-sm muted mt-2">Your progress, notes, quiz scores and checklists are saved locally with IndexedDB — no signup, no email required.</p>
+      </div>
+      <div class="stat-grid" aria-label="Academy at a glance">
+        <div class="stat"><b>78 h</b><span>Study + lab time</span></div>
+        <div class="stat"><b>7</b><span>Interactive tools</span></div>
+        <div class="stat"><b>30+</b><span>Premium AI prompts</span></div>
+        <div class="stat"><b>300+</b><span>Planned article ideas</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <aside class="ad-slot ad-leaderboard" data-ad="header" data-ad-format="horizontal" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+  </div>
+
+  <div class="wrap">
+    <div id="resume-banner" class="callout callout-tip" hidden>
+      <strong class="callout-title">Welcome back 👋</strong>
+      <p class="mb-0">Continue where you stopped: <a href="#" data-resume-link>your last lesson</a>. You have visited on <b data-days>0</b> days — current streak <b data-streak>0</b>.</p>
+    </div>
+  </div>
+
+  <section class="section wrap">
+    <h2 class="mt-0">The problem this academy solves</h2>
+    <div class="grid grid-3">
+      <article class="card">
+        <h3>Traffic without revenue</h3>
+        <p>Most beginners chase volume keywords in low-value niches. You will learn to select topics where advertisers compete, and to match each page type to the monetisation that actually pays.</p>
+      </article>
+      <article class="card">
+        <h3>Content that cannot rank</h3>
+        <p>Generic AI articles, thin affiliate reviews and rewritten competitor posts fail. You will build content with information gain: original tools, tables, screenshots, methodology and expert review.</p>
+      </article>
+      <article class="card">
+        <h3>One-time visitors</h3>
+        <p>Search sends people once. Newsletters, calculators, trackers and saved checklists bring them back — the difference between a blog and a media asset.</p>
+      </article>
+    </div>
+
+    <div class="callout callout-warn mt-3">
+      <strong class="callout-title">Read this before you build 10 websites</strong>
+      <p class="mb-0">If ten sites exist mainly to link to each other, search engines may treat that as a link scheme. This academy teaches the safe alternative: ten independent brands with their own audiences, authors and editorial policies, connected only by contextual links that genuinely help a reader. See the <a href="blueprint/index.html#cross-referral">cross-referral safety rules</a>.</p>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="curriculum">
+    <div class="wrap">
+      <h2 class="mt-0">The 12-course curriculum</h2>
+      <p class="lead">Follow it in order, or jump to the course that unblocks you today. Every lesson has a “what is it / why it matters / how to do it” structure, a mini assignment, a screenshot task and a quiz.</p>
+      <div class="progress-label"><span>Your academy progress</span><span data-academy-pct>0%</span></div>
+      <div class="progress mb-2" data-academy-bar><i></i></div>
+
+      <div class="grid grid-3">
+        <a class="card card-link" href="courses/seo-foundations.html" data-course-card="course-01" data-lessons="12">
+          <div class="card-head"><span class="badge">Course 1 · Beginner</span> <span data-card-progress></span></div>
+          <h3>SEO Foundations for Beginners</h3>
+          <p class="text-sm">Crawling, indexing, ranking, search intent, SERP analysis, topical authority, E-E-A-T, on-page basics, backlinks, CPM and returning visitors.</p>
+          <p class="text-sm muted mb-0">12 lessons · ~6 h</p>
+        </a>
+        <a class="card card-link" href="courses/niche-research-high-cpm.html" data-course-card="course-02" data-lessons="8">
+          <div class="card-head"><span class="badge">Course 2 · Beginner</span> <span data-card-progress></span></div>
+          <h3>Niche Research &amp; High-CPM Market Selection</h3>
+          <p class="text-sm">Advertiser demand, audience value, keyword validation, competitor matrices, opportunity scoring and YMYL risk.</p>
+          <p class="text-sm muted mb-0">8 lessons · ~5 h</p>
+        </a>
+        <a class="card card-link" href="courses/website-architecture-cloudflare.html" data-course-card="course-03" data-lessons="10">
+          <div class="card-head"><span class="badge">Course 3 · Beginner</span> <span data-card-progress></span></div>
+          <h3>Website Architecture &amp; Cloudflare Setup</h3>
+          <p class="text-sm">DNS, SSL/TLS Full (strict), CMS choice, URL structure, core trust pages, caching, WAF, Turnstile, R2 and analytics.</p>
+          <p class="text-sm muted mb-0">10 lessons · ~6 h</p>
+        </a>
+        <a class="card card-link" href="courses/technical-seo-performance.html" data-course-card="course-04" data-lessons="10">
+          <div class="card-head"><span class="badge">Course 4 · Intermediate</span> <span data-card-progress></span></div>
+          <h3>Technical SEO &amp; Performance</h3>
+          <p class="text-sm">Crawlability, indexability, canonicals, redirects, LCP/INP/CLS, images, structured data and audit SOPs.</p>
+          <p class="text-sm muted mb-0">10 lessons · ~7 h</p>
+        </a>
+        <a class="card card-link" href="courses/content-strategy-eeat.html" data-course-card="course-05" data-lessons="9">
+          <div class="card-head"><span class="badge">Course 5 · Intermediate</span> <span data-card-progress></span></div>
+          <h3>Content Strategy &amp; E-E-A-T</h3>
+          <p class="text-sm">Briefs, information gain, expert review workflows, source standards, screenshot SOPs and refresh systems.</p>
+          <p class="text-sm muted mb-0">9 lessons · ~7 h</p>
+        </a>
+        <a class="card card-link" href="courses/on-page-seo-cro.html" data-course-card="course-06" data-lessons="10">
+          <div class="card-head"><span class="badge">Course 6 · Intermediate</span> <span data-card-progress></span></div>
+          <h3>On-Page SEO &amp; Conversion Optimization</h3>
+          <p class="text-sm">Titles, intros, structure, comparison tables, internal links, image SEO, schema, CTAs and testing.</p>
+          <p class="text-sm muted mb-0">10 lessons · ~6 h</p>
+        </a>
+        <a class="card card-link" href="courses/cloudflare-apis-automation.html" data-course-card="course-07" data-lessons="9">
+          <div class="card-head"><span class="badge">Course 7 · Advanced</span> <span data-card-progress></span></div>
+          <h3>Cloudflare, APIs &amp; Automation</h3>
+          <p class="text-sm">Cloudflare API and Workers, Search Console API, GA4 Data API, PageSpeed Insights API and safe AI-assisted publishing.</p>
+          <p class="text-sm muted mb-0">9 lessons · ~7 h</p>
+        </a>
+        <a class="card card-link" href="courses/link-building-digital-pr.html" data-course-card="course-08" data-lessons="9">
+          <div class="card-head"><span class="badge">Course 8 · Advanced</span> <span data-card-progress></span></div>
+          <h3>Link Building &amp; Digital PR</h3>
+          <p class="text-sm">Linkable assets, data stories, outreach lists, expert commentary, resource pages and link-risk rules.</p>
+          <p class="text-sm muted mb-0">9 lessons · ~6 h</p>
+        </a>
+        <a class="card card-link" href="courses/analytics-dashboards.html" data-course-card="course-09" data-lessons="9">
+          <div class="card-head"><span class="badge">Course 9 · Intermediate</span> <span data-card-progress></span></div>
+          <h3>Analytics, Dashboards &amp; Optimization</h3>
+          <p class="text-sm">GSC and GA4 KPIs, Looker Studio, striking-distance pages, CTR fixes, cannibalisation and revenue per page.</p>
+          <p class="text-sm muted mb-0">9 lessons · ~6 h</p>
+        </a>
+        <a class="card card-link" href="courses/traffic-returning-visitors.html" data-course-card="course-10" data-lessons="9">
+          <div class="card-head"><span class="badge">Course 10 · Intermediate</span> <span data-card-progress></span></div>
+          <h3>High Traffic &amp; Returning Visitors</h3>
+          <p class="text-sm">Channel mix, return loops, lead magnets, newsletters, welcome sequences, recurring content and community.</p>
+          <p class="text-sm muted mb-0">9 lessons · ~6 h</p>
+        </a>
+        <a class="card card-link" href="courses/monetization-cpm-rpm.html" data-course-card="course-11" data-lessons="9">
+          <div class="card-head"><span class="badge">Course 11 · Advanced</span> <span data-card-progress></span></div>
+          <h3>Monetization &amp; High CPM/RPM</h3>
+          <p class="text-sm">CPM vs RPM, CLS-safe ad layouts, affiliate methodology, lead-gen compliance, sponsorships and revenue per page.</p>
+          <p class="text-sm muted mb-0">9 lessons · ~6 h</p>
+        </a>
+        <a class="card card-link" href="courses/capstone-10-websites.html" data-course-card="course-12" data-lessons="7">
+          <div class="card-head"><span class="badge">Course 12 · Capstone</span> <span data-card-progress></span></div>
+          <h3>Build 10 Related High-CPM Websites</h3>
+          <p class="text-sm">Portfolio architecture, shared SOPs, launch packages, the ten exercises and cross-referral safety.</p>
+          <p class="text-sm muted mb-0">7 lessons · ~10 h</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <aside class="ad-slot ad-inarticle" data-ad="inarticle" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+  </div>
+
+  <section class="section wrap" id="tools">
+    <h2 class="mt-0">Seven tools that run entirely in your browser</h2>
+    <p class="lead">Calculators and trackers are the fastest way to earn links, capture emails and bring visitors back. Ours double as working examples you can copy into your own sites.</p>
+    <div class="grid grid-3">
+      <a class="card card-link" href="tools/revenue-rpm-calculator.html"><h3>Ad revenue &amp; RPM calculator</h3><p class="text-sm mb-0">Model sessions, pageviews per session, viewability, fill rate and CPM by country tier to estimate monthly display revenue.</p></a>
+      <a class="card card-link" href="tools/keyword-opportunity-scorer.html"><h3>Keyword opportunity scorer</h3><p class="text-sm mb-0">Score intent value, monetisation, SERP weakness, linkability and compliance risk to decide: target now, later or avoid.</p></a>
+      <a class="card card-link" href="tools/serp-analysis-worksheet.html"><h3>SERP analysis worksheet</h3><p class="text-sm mb-0">Capture the top results, formats, trust signals and gaps for any keyword. Saved locally and exportable to CSV.</p></a>
+      <a class="card card-link" href="tools/portfolio-tracker.html"><h3>10-site portfolio tracker</h3><p class="text-sm mb-0">The master sheet from Course 12: sites, status, traffic, revenue and launch checklist state — in IndexedDB.</p></a>
+      <a class="card card-link" href="tools/checklists.html"><h3>Checklist library</h3><p class="text-sm mb-0">Launch, technical SEO, E-E-A-T, on-page, monetisation and screenshot SOP checklists that remember what you ticked.</p></a>
+      <a class="card card-link" href="tools/content-brief-builder.html"><h3>Content brief builder</h3><p class="text-sm mb-0">Turn a keyword into a full brief — intent, outline, sources, schema, CTA — then copy it into your CMS or AI assistant.</p></a>
+    </div>
+    <p class="mt-2"><a class="btn btn-ghost" href="tools/index.html">Browse all tools →</a></p>
+  </section>
+
+  <section class="section section-alt">
+    <div class="wrap grid grid-2">
+      <div>
+        <h2 class="mt-0">Why we store your progress with IndexedDB</h2>
+        <p>This is a static site. There is no login, no server database and no analytics profile of you. Everything you do — completed lessons, notes, quiz scores, checklists, saved keywords, portfolio rows — is written to <strong>IndexedDB</strong> inside your own browser.</p>
+        <ul>
+          <li><strong>Private by default:</strong> your research never leaves your device.</li>
+          <li><strong>Instant:</strong> no network round-trips, so pages stay fast and stable.</li>
+          <li><strong>Portable:</strong> export a JSON backup, import it on another machine.</li>
+          <li><strong>Reversible:</strong> one button wipes every store.</li>
+        </ul>
+        <p class="text-sm muted">Clearing site data in your browser deletes it too — export a backup before you clean up.</p>
+        <a class="btn" href="dashboard.html">Open my dashboard</a>
+      </div>
+      <div class="card">
+        <h3 class="mt-0">What gets saved</h3>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Store</th><th>What it holds</th></tr></thead>
+            <tbody>
+              <tr><td><code>progress</code></td><td>Completed lessons per course</td></tr>
+              <tr><td><code>notes</code></td><td>Autosaved lesson notes</td></tr>
+              <tr><td><code>quiz</code></td><td>Self-scored quiz results</td></tr>
+              <tr><td><code>checklists</code></td><td>Ticked checklist items</td></tr>
+              <tr><td><code>portfolio</code></td><td>Your 10-site master sheet</td></tr>
+              <tr><td><code>keywords</code></td><td>Keyword + SERP research rows</td></tr>
+              <tr><td><code>favorites</code></td><td>Saved AI prompts</td></tr>
+              <tr><td><code>activity</code></td><td>Visit streak (returning-visitor loop)</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <h2 class="mt-0">The ten high-CPM site blueprints</h2>
+    <p class="lead">Each blueprint is a standalone brand with its own audience, topical map, first 30 pages, calculator, lead magnet, Cloudflare lab and monetisation plan.</p>
+    <div class="grid grid-4 text-sm">
+      <div class="card"><b>1. Small Business Insurance</b><p class="mb-0 muted">Lead gen, cost calculator, renewal checklist</p></div>
+      <div class="card"><b>2. Founder Legal &amp; Compliance</b><p class="mb-0 muted">Templates, compliance calendar</p></div>
+      <div class="card"><b>3. SMB Finance &amp; Banking</b><p class="mb-0 muted">Loan calculator, cash-flow toolkit</p></div>
+      <div class="card"><b>4. SMB Cybersecurity</b><p class="mb-0 muted">Readiness checklist, vendor reviews</p></div>
+      <div class="card"><b>5. B2B SaaS &amp; AI Tools</b><p class="mb-0 muted">Tool selector quiz, pricing tracker</p></div>
+      <div class="card"><b>6. Personal Credit &amp; Mortgage</b><p class="mb-0 muted">Mortgage calculators, rate alerts</p></div>
+      <div class="card"><b>7. Health Benefits &amp; HSA</b><p class="mb-0 muted">HSA calculator, enrolment calendar</p></div>
+      <div class="card"><b>8. Home Energy &amp; ROI</b><p class="mb-0 muted">Solar ROI calculator, rebate tracker</p></div>
+      <div class="card"><b>9. Career Certifications ROI</b><p class="mb-0 muted">ROI calculator, salary tracker</p></div>
+      <div class="card"><b>10. Business Travel &amp; Expat</b><p class="mb-0 muted">Relocation checklist, visa tracker</p></div>
+    </div>
+    <p class="mt-2"><a class="btn btn-ghost" href="blueprint/index.html">Open the blueprint library →</a></p>
+  </section>
+
+  <section class="section section-alt" id="newsletter">
+    <div class="wrap wrap-narrow center">
+      <h2 class="mt-0">Get the weekly build brief</h2>
+      <p class="lead">One email a week: a striking-distance opportunity to fix, one linkable asset idea, and one monetisation experiment. Plus the launch checklist PDF.</p>
+      <form id="newsletter-form" class="flex" style="justify-content:center" novalidate>
+        <label class="sr-only" for="nl-email">Email address</label>
+        <input id="nl-email" type="email" placeholder="you@example.com" style="max-width:320px" required>
+        <button class="btn" type="submit">Save my interest</button>
+      </form>
+      <p class="text-sm muted mt-2" id="nl-note">This demo stores your address only in your own browser (IndexedDB) — nothing is transmitted. Connect Beehiiv, ConvertKit or Mailchimp to make it a real list, and protect the form with Cloudflare Turnstile (Course 3, Lesson 7).</p>
+    </div>
+  </section>
+
+  <section class="section wrap wrap-narrow" id="faq">
+    <h2 class="mt-0">Frequently asked questions</h2>
+    <div class="quiz">
+      <details open><summary>Is the academy really free?</summary><p class="answer">Yes. It is funded by display advertising and clearly labelled affiliate links, exactly like the business model it teaches. See our <a href="advertiser-disclosure.html">advertiser disclosure</a>.</p></details>
+      <details><summary>Do I need a domain or budget to start?</summary><p class="answer">No. Courses 1, 2, 5, 6, 9, 10 and 11 can be completed with free tools. You need a domain (roughly $10–15/yr) and a Cloudflare account (free tier) from Course 3 onwards.</p></details>
+      <details><summary>Will you teach me to buy backlinks?</summary><p class="answer">No. Course 8 covers earned links only: original data, calculators, templates, expert commentary and digital PR. Paid links, PBNs and reciprocal rings are covered as risks to avoid.</p></details>
+      <details><summary>Does this replace professional advice?</summary><p class="answer">No. Several blueprint niches are YMYL (finance, insurance, legal, health). We teach the editorial process — expert review, official sources, disclaimers — not the advice itself.</p></details>
+      <details><summary>Can I use the tools on my own site?</summary><p class="answer">Yes. The calculators are plain HTML, CSS and JavaScript. Read the code, adapt it, and ship your own version as a linkable asset.</p></details>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <aside class="ad-slot ad-footer" data-ad="footer" data-ad-format="horizontal" aria-label="Advertisement"><div class="ad-inner"></div></aside>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><span class="brand-mark">RL</span> RankLab Academy</a>
+        <p class="text-sm muted mt-2">Independent publisher education. We teach people-first content, clean technical SEO and transparent monetisation — never link schemes or fake expertise.</p>
+        <p class="text-sm muted">Content last reviewed: <time datetime="2026-08-01">1 August 2026</time>.</p>
+      </div>
+      <div>
+        <h3>Learn</h3>
+        <ul>
+          <li><a href="courses/index.html">All 12 courses</a></li>
+          <li><a href="tools/index.html">Tools &amp; calculators</a></li>
+          <li><a href="prompts/index.html">Prompt library</a></li>
+          <li><a href="blueprint/index.html">10-site blueprint</a></li>
+          <li><a href="resources/visual-assets.html">Visual asset briefs</a></li>
+          <li><a href="dashboard.html">My progress</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Trust</h3>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="authors.html">Authors &amp; reviewers</a></li>
+          <li><a href="editorial-policy.html">Editorial policy</a></li>
+          <li><a href="review-methodology.html">Review methodology</a></li>
+          <li><a href="corrections.html">Corrections</a></li>
+          <li><a href="advertiser-disclosure.html">Advertiser disclosure</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy policy</a></li>
+          <li><a href="terms.html">Terms of use</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> RankLab Academy. Educational content — not financial, legal, medical or insurance advice.</span>
+      <span>Built as a static site: HTML, CSS, vanilla JS and IndexedDB.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/newsletter.js" defer></script>
+</body>
+</html>
